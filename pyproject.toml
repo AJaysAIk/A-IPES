@@ -7,6 +7,7 @@ name = "ipes-guard"
 version = "0.1.0"
 description = "Interventional Policy-Effect Signature Guard research prototype"
 readme = "README.md"
+license = {file = "LICENSE"}
 requires-python = ">=3.10"
 dependencies = [
   "numpy>=1.26",

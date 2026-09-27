@@ -1,5 +1,7 @@
 # Rights and reuse
 
-This release makes the author's dissertation research available for inspection and citation. No open-source licence is granted by this repository. Do not assume permission to redistribute, modify, or use the material beyond applicable law and platform terms; seek permission from the relevant rights holders.
+The original code and accompanying documentation in this repository are released under the [MIT License](LICENSE), at the author's direction. Copyright (c) 2026 Ajay Sai Kummara.
 
-A permissive licence has not been added because the available project files do not establish the licensing position for all dissertation materials. Third-party dependencies retain their respective licences. Citations do not imply ownership of, or endorsement by, the cited projects or Queen’s University Belfast.
+Third-party dependencies and any third-party material retain their respective licences and rights. The MIT licence does not grant rights to third-party material that the author does not own. Citations do not imply endorsement by the cited projects or Queen’s University Belfast.
+
+Please use [CITATION.cff](CITATION.cff) to credit the research in academic work.

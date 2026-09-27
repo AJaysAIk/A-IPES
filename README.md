@@ -80,4 +80,4 @@ All **17 tests pass** in the publication environment. A seed-0 reproduction with
 
 This is an MSc dissertation research prototype, not a peer-reviewed publication or a production security system. See [CITATION.cff](CITATION.cff) for citation metadata and [publication provenance](docs/PUBLICATION_PROVENANCE.md) for the source snapshot and public-copy changes.
 
-No open-source licence is granted in this release; see [RIGHTS.md](RIGHTS.md). Security reporting guidance is in [SECURITY.md](SECURITY.md).
+Released under the [MIT License](LICENSE). See [RIGHTS.md](RIGHTS.md) for third-party rights and citation guidance. Security reporting guidance is in [SECURITY.md](SECURITY.md).
