@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you refer to this work, please cite the MSc dissertation."
+type: software
+title: "A-IPES: Adaptive Intervention Planning for Efficient Runtime Policy Identification in Model Context Protocol Agents"
+authors:
+  - family-names: Kummara
+    given-names: Ajay Sai
+repository-code: "https://github.com/AJaysAIk/A-IPES"
+url: "https://github.com/AJaysAIk/A-IPES"
+preferred-citation:
+  type: thesis
+  title: "A-IPES: Adaptive Intervention Planning for Efficient Runtime Policy Identification in Model Context Protocol Agents"
+  authors:
+    - family-names: Kummara
+      given-names: Ajay Sai
+  year: 2026
+  institution:
+    name: "Queen’s University Belfast"
+  thesis-type: "MSc dissertation"
