@@ -1,0 +1,40 @@
+{
+  "corpus_sha256": "ef5725e0295d48dcf2cd7979e824537fc80d8b6fcbe218dd1a950b68bb7fb740",
+  "prompt_sha256": "611ed557848839812a80345c65221eb714400c255110ea07a01554feb3c08145",
+  "model": {
+    "repository": "mlx-community/Qwen2.5-Coder-1.5B-Instruct-4bit",
+    "revision": "b3252a2f97102b1fb1571fec2c9b27219a8536be",
+    "local_path": "codeguard/models/qwen-coder-1.5b",
+    "files": {
+      "model.safetensors": "daeab4764fb420d161721791cf2e509e2de81a7af4223646e7bed2bf82c57b58",
+      "added_tokens.json": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+      "tokenizer_config.json": "dced901d401aa828f313a2baec70d0ce164653285812237b5285c7efd5b9e760",
+      "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+      "config.json": "0708e236aa7b7db3c01bf8a46200e1a92d57f20fa668a7c430154bd6a21cdba5",
+      "tokenizer.json": "a8506e7111b80c6d8635951a02eab0f4e1a8e4e5772da83846579e97b16f61bf",
+      "README.md": "f164287c8bb0d595f172a4be0329660c35208249f360e0c84780e1fcc251e29b",
+      "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "model.safetensors.index.json": "6b98634d5044f0e2ad45228a374f8445904e571f1082392d08a6ce54f5d517ca"
+    },
+    "quantization": "MLX community 4-bit",
+    "purpose": "defensive text-only code review"
+  },
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "3.11.15",
+  "versions": {
+    "mlx": "0.32.3",
+    "mlx-lm": "0.32.0",
+    "transformers": "5.19.0",
+    "numpy": "2.4.6"
+  },
+  "decoding": {
+    "temperature": 0,
+    "max_tokens": 128,
+    "seed": 17
+  },
+  "protocol_sha256": "91f15fc0bdbe78f2a1a68b0ff7d86fd0df5f63a19fc73fa1b3d9cc38b28277ad",
+  "smoke": true,
+  "load_seconds": 0.867771791992709,
+  "completed": 2
+}

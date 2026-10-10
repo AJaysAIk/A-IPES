@@ -1,0 +1,38 @@
+RECORDED REAL-MODEL REPLAY - no live inference; source is never executed.
+Illustrative example selected after evaluation; aggregate results are reported separately.
+
+Representation: original | ID: 8aa96d8aadbd9d43
+def inspect_item(conn, value):
+    query = "SELECT id FROM users WHERE name = '%s'" % value
+    return conn.execute(query).fetchall()
+
+Frozen local model: ```json
+{
+  "sql_injection": true,
+  "command_injection": false,
+  "path_traversal": false
+}
+```
+Semgrep SQL finding: True
+Hybrid SQL finding: True
+
+Representation: renamed | ID: 21fa72cdc465d098
+def inspect_item(conn, item):
+    statement = "SELECT id FROM users WHERE name = '%s'" % item
+    return conn.execute(statement).fetchall()
+
+Frozen local model: ```json
+{
+  "sql_injection": false,
+  "command_injection": false,
+  "path_traversal": false
+}
+```
+Semgrep SQL finding: True
+Hybrid SQL finding: True
+
+Held-out aggregate; correlated variants, 9 base families:
+model: 10/36 detected; 0/36 safe cases flagged
+semgrep: 36/36 detected; 4/36 safe cases flagged
+hybrid: 36/36 detected; 4/36 safe cases flagged
+Hybrid equals Semgrep here. This does not prove production security.

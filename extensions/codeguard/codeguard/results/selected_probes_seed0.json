@@ -1,0 +1,5426 @@
+[
+  {
+    "strategy": "random",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 1,
+        "sample_id": "736c74b32ae18f9a",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 2,
+        "sample_id": "492dc9fbf468b8ea",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 3,
+        "sample_id": "f3c490cdd59aaaba",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 4,
+        "sample_id": "bb726cb3565c8a42",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 5,
+        "sample_id": "f60e4d3101258f30",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 6,
+        "sample_id": "66ba5221b0d6b7c4",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 7,
+        "sample_id": "ea9bf4c2c14279fd",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 8,
+        "sample_id": "a1add3548791cab9",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 9,
+        "sample_id": "efae862a61c938fa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 10,
+        "sample_id": "eeebeed488827a52",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 11,
+        "sample_id": "cb4eed184e892127",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 12,
+        "sample_id": "546528e8ec038845",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 13,
+        "sample_id": "20d9c136aad45141",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 14,
+        "sample_id": "bb5be9b9305979c4",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 15,
+        "sample_id": "3d5ba54bcf5b55d4",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 16,
+        "sample_id": "7e1baedbc618a195",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 17,
+        "sample_id": "a640b6a698a20d7e",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 18,
+        "sample_id": "85176a7147b817e0",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 19,
+        "sample_id": "18c72042d50420ba",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 20,
+        "sample_id": "913a590e573985d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 21,
+        "sample_id": "c463a2e6e8dd1e15",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 22,
+        "sample_id": "6301a88ea84d2f77",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 23,
+        "sample_id": "5d5a255a87562193",
+        "cell": "command_injection/original",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 24,
+        "sample_id": "db3a8bb991093be9",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 25,
+        "sample_id": "c226569fcc40970f",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 26,
+        "sample_id": "111b9b32701ed7d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 27,
+        "sample_id": "ca963a87e36bc11b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 28,
+        "sample_id": "d3e6cfe645606e0c",
+        "cell": "command_injection/original",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 29,
+        "sample_id": "b5ad291ea7b2dc5e",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 30,
+        "sample_id": "50f4e0108ea716a8",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 31,
+        "sample_id": "83c5076ef9afa1eb",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 32,
+        "sample_id": "967ac1d04006f5dd",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 33,
+        "sample_id": "e67108c65eb827fa",
+        "cell": "command_injection/original",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 34,
+        "sample_id": "ed29d3269eb16405",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 35,
+        "sample_id": "c0ea40927a894f8b",
+        "cell": "command_injection/original",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 36,
+        "sample_id": "2e148627366fd91b",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 37,
+        "sample_id": "6d61622a7e69f8d7",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 38,
+        "sample_id": "ee5b320b198b3e26",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 39,
+        "sample_id": "118a0e9fda262199",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 40,
+        "sample_id": "8cf23a25cc768e65",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 41,
+        "sample_id": "b7d4cb84881d9eaa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 42,
+        "sample_id": "3a13b60b9c1f1ddb",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 43,
+        "sample_id": "7658033bf581082f",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 44,
+        "sample_id": "e4f89715320eabd4",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 45,
+        "sample_id": "c0f8471af5d5281a",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 46,
+        "sample_id": "5d8120a16ad05f09",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 47,
+        "sample_id": "81f2c4917c3da884",
+        "cell": "command_injection/original",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 48,
+        "sample_id": "f5779420a057f8b7",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": null
+      }
+    ]
+  },
+  {
+    "strategy": "fixed",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 1,
+        "sample_id": "ca963a87e36bc11b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 2,
+        "sample_id": "6301a88ea84d2f77",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 3,
+        "sample_id": "5d5a255a87562193",
+        "cell": "command_injection/original",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 4,
+        "sample_id": "a1add3548791cab9",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 5,
+        "sample_id": "6d61622a7e69f8d7",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 6,
+        "sample_id": "66ba5221b0d6b7c4",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 7,
+        "sample_id": "7a1e8ff2d6270766",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 8,
+        "sample_id": "7e1baedbc618a195",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 9,
+        "sample_id": "7092032e803cbb15",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 10,
+        "sample_id": "9d3e844c1cb30250",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 11,
+        "sample_id": "2e148627366fd91b",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 12,
+        "sample_id": "9c7e63c7188be3db",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 13,
+        "sample_id": "958cef1704475e48",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 14,
+        "sample_id": "913a590e573985d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 15,
+        "sample_id": "e67108c65eb827fa",
+        "cell": "command_injection/original",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 16,
+        "sample_id": "4d249da1376e7a91",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 17,
+        "sample_id": "a640b6a698a20d7e",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 18,
+        "sample_id": "3a13b60b9c1f1ddb",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 19,
+        "sample_id": "b894e8d90a18a171",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 20,
+        "sample_id": "50d8e5766e18475a",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 21,
+        "sample_id": "85176a7147b817e0",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 22,
+        "sample_id": "5d8120a16ad05f09",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 23,
+        "sample_id": "b376ba8548046b87",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 24,
+        "sample_id": "de006363a63780c4",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 25,
+        "sample_id": "efae862a61c938fa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 26,
+        "sample_id": "111b9b32701ed7d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 27,
+        "sample_id": "81f2c4917c3da884",
+        "cell": "command_injection/original",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 28,
+        "sample_id": "18c72042d50420ba",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 29,
+        "sample_id": "ed29d3269eb16405",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 30,
+        "sample_id": "bb726cb3565c8a42",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 31,
+        "sample_id": "118a0e9fda262199",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 32,
+        "sample_id": "b5ad291ea7b2dc5e",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 33,
+        "sample_id": "c3a9c4bf2519dd6a",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 34,
+        "sample_id": "f5779420a057f8b7",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 35,
+        "sample_id": "c463a2e6e8dd1e15",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 36,
+        "sample_id": "2ff10768c61edf68",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 37,
+        "sample_id": "b7d4cb84881d9eaa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 38,
+        "sample_id": "b33e72daa3d2ba1c",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 39,
+        "sample_id": "79401a374b8f918e",
+        "cell": "command_injection/original",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 40,
+        "sample_id": "f3c490cdd59aaaba",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 41,
+        "sample_id": "55ecdeaaef7b1f0c",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 42,
+        "sample_id": "8adcfe51b879348c",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 43,
+        "sample_id": "546528e8ec038845",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 44,
+        "sample_id": "c226569fcc40970f",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 45,
+        "sample_id": "ea9bf4c2c14279fd",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 46,
+        "sample_id": "736c74b32ae18f9a",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": null
+      },
+      {
+        "step": 47,
+        "sample_id": "967ac1d04006f5dd",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": null
+      },
+      {
+        "step": 48,
+        "sample_id": "cb4eed184e892127",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": null
+      }
+    ]
+  },
+  {
+    "strategy": "outcome_only",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 1,
+        "sample_id": "6301a88ea84d2f77",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 2,
+        "sample_id": "2e148627366fd91b",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 3,
+        "sample_id": "9c7e63c7188be3db",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 4,
+        "sample_id": "7e1baedbc618a195",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 5,
+        "sample_id": "6d61622a7e69f8d7",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 6,
+        "sample_id": "ca963a87e36bc11b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 7,
+        "sample_id": "a1add3548791cab9",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 8,
+        "sample_id": "5d5a255a87562193",
+        "cell": "command_injection/original",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 9,
+        "sample_id": "66ba5221b0d6b7c4",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 10,
+        "sample_id": "9d3e844c1cb30250",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 11,
+        "sample_id": "7092032e803cbb15",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 12,
+        "sample_id": "7a1e8ff2d6270766",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 13,
+        "sample_id": "b376ba8548046b87",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 14,
+        "sample_id": "50d8e5766e18475a",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.31924758801875414,
+            0.5614035087719297,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 15,
+        "sample_id": "913a590e573985d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 16,
+        "sample_id": "3a13b60b9c1f1ddb",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 17,
+        "sample_id": "958cef1704475e48",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.31924758801875414,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 18,
+        "sample_id": "5d8120a16ad05f09",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 19,
+        "sample_id": "a640b6a698a20d7e",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.31924758801875414,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 20,
+        "sample_id": "85176a7147b817e0",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 21,
+        "sample_id": "de006363a63780c4",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 22,
+        "sample_id": "e67108c65eb827fa",
+        "cell": "command_injection/original",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 23,
+        "sample_id": "4d249da1376e7a91",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 24,
+        "sample_id": "b894e8d90a18a171",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 25,
+        "sample_id": "efae862a61c938fa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 26,
+        "sample_id": "bb726cb3565c8a42",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 27,
+        "sample_id": "ed29d3269eb16405",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 28,
+        "sample_id": "f5779420a057f8b7",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 29,
+        "sample_id": "2ff10768c61edf68",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 30,
+        "sample_id": "b5ad291ea7b2dc5e",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 31,
+        "sample_id": "118a0e9fda262199",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 32,
+        "sample_id": "c463a2e6e8dd1e15",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 33,
+        "sample_id": "111b9b32701ed7d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 34,
+        "sample_id": "c3a9c4bf2519dd6a",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 35,
+        "sample_id": "81f2c4917c3da884",
+        "cell": "command_injection/original",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.1162259583658202,
+            0.44999999999999996,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 36,
+        "sample_id": "18c72042d50420ba",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.1162259583658202,
+            0.44999999999999996,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 37,
+        "sample_id": "55ecdeaaef7b1f0c",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.21972831999101058,
+            0.6,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 38,
+        "sample_id": "736c74b32ae18f9a",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6951438880938983,
+            0.7999999999999999,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 39,
+        "sample_id": "cb4eed184e892127",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6951438880938983,
+            0.7999999999999999,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 40,
+        "sample_id": "b7d4cb84881d9eaa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6951438880938983,
+            0.7999999999999999,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 41,
+        "sample_id": "c226569fcc40970f",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.21972831999101058,
+            0.6,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 42,
+        "sample_id": "546528e8ec038845",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.21972831999101058,
+            0.6,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 43,
+        "sample_id": "8adcfe51b879348c",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.21972831999101058,
+            0.6,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 44,
+        "sample_id": "f3c490cdd59aaaba",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.21972831999101058,
+            0.6,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 45,
+        "sample_id": "967ac1d04006f5dd",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 46,
+        "sample_id": "b33e72daa3d2ba1c",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 47,
+        "sample_id": "79401a374b8f918e",
+        "cell": "command_injection/original",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.027379277125177057,
+            0.3999999999999999,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 48,
+        "sample_id": "ea9bf4c2c14279fd",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "strategy": "policy_only",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 1,
+        "sample_id": "6301a88ea84d2f77",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 2,
+        "sample_id": "2e148627366fd91b",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 3,
+        "sample_id": "9c7e63c7188be3db",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 4,
+        "sample_id": "7e1baedbc618a195",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 5,
+        "sample_id": "6d61622a7e69f8d7",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 6,
+        "sample_id": "ca963a87e36bc11b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 7,
+        "sample_id": "a1add3548791cab9",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 8,
+        "sample_id": "5d5a255a87562193",
+        "cell": "command_injection/original",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 9,
+        "sample_id": "66ba5221b0d6b7c4",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 10,
+        "sample_id": "9d3e844c1cb30250",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 11,
+        "sample_id": "7092032e803cbb15",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 12,
+        "sample_id": "7a1e8ff2d6270766",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 13,
+        "sample_id": "b376ba8548046b87",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 14,
+        "sample_id": "913a590e573985d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 15,
+        "sample_id": "3a13b60b9c1f1ddb",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 16,
+        "sample_id": "5d8120a16ad05f09",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 17,
+        "sample_id": "85176a7147b817e0",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 18,
+        "sample_id": "c463a2e6e8dd1e15",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 19,
+        "sample_id": "111b9b32701ed7d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 20,
+        "sample_id": "c3a9c4bf2519dd6a",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 21,
+        "sample_id": "967ac1d04006f5dd",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 22,
+        "sample_id": "b33e72daa3d2ba1c",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 23,
+        "sample_id": "ea9bf4c2c14279fd",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 24,
+        "sample_id": "ee5b320b198b3e26",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 25,
+        "sample_id": "8cf23a25cc768e65",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 26,
+        "sample_id": "e4f89715320eabd4",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            0.9479166666666666,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 27,
+        "sample_id": "f60e4d3101258f30",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.4756741081386468,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 28,
+        "sample_id": "50f4e0108ea716a8",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.4756741081386468,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 29,
+        "sample_id": "bb726cb3565c8a42",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 30,
+        "sample_id": "f5779420a057f8b7",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 31,
+        "sample_id": "736c74b32ae18f9a",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 32,
+        "sample_id": "2175db2479b427a0",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 33,
+        "sample_id": "50d8e5766e18475a",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            1.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 34,
+        "sample_id": "b5ad291ea7b2dc5e",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 35,
+        "sample_id": "958cef1704475e48",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 36,
+        "sample_id": "efae862a61c938fa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 37,
+        "sample_id": "b7d4cb84881d9eaa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 38,
+        "sample_id": "e7f4d9a584464e9b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 39,
+        "sample_id": "a640b6a698a20d7e",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 40,
+        "sample_id": "ed29d3269eb16405",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 41,
+        "sample_id": "de006363a63780c4",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 42,
+        "sample_id": "2ff10768c61edf68",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 43,
+        "sample_id": "cb4eed184e892127",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 44,
+        "sample_id": "e67108c65eb827fa",
+        "cell": "command_injection/original",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 45,
+        "sample_id": "4d249da1376e7a91",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 46,
+        "sample_id": "b894e8d90a18a171",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 47,
+        "sample_id": "118a0e9fda262199",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 1.0
+        }
+      },
+      {
+        "step": 48,
+        "sample_id": "19be0d570fa1e5bd",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6369258113397523,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "strategy": "full",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 1,
+        "sample_id": "6301a88ea84d2f77",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 2.8
+        }
+      },
+      {
+        "step": 2,
+        "sample_id": "2e148627366fd91b",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.7615384615384615
+        }
+      },
+      {
+        "step": 3,
+        "sample_id": "9c7e63c7188be3db",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.7615384615384615
+        }
+      },
+      {
+        "step": 4,
+        "sample_id": "7e1baedbc618a195",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.7615384615384615
+        }
+      },
+      {
+        "step": 5,
+        "sample_id": "6d61622a7e69f8d7",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.7615384615384615
+        }
+      },
+      {
+        "step": 6,
+        "sample_id": "ca963a87e36bc11b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.7615384615384615
+        }
+      },
+      {
+        "step": 7,
+        "sample_id": "a1add3548791cab9",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.7615384615384615
+        }
+      },
+      {
+        "step": 8,
+        "sample_id": "7092032e803cbb15",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.7615384615384615
+        }
+      },
+      {
+        "step": 9,
+        "sample_id": "118a0e9fda262199",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.7615384615384615
+        }
+      },
+      {
+        "step": 10,
+        "sample_id": "5d5a255a87562193",
+        "cell": "command_injection/original",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 11,
+        "sample_id": "66ba5221b0d6b7c4",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 12,
+        "sample_id": "9d3e844c1cb30250",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 13,
+        "sample_id": "b376ba8548046b87",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.7
+        }
+      },
+      {
+        "step": 14,
+        "sample_id": "913a590e573985d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.6824561403508773
+        }
+      },
+      {
+        "step": 15,
+        "sample_id": "3a13b60b9c1f1ddb",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.6824561403508773
+        }
+      },
+      {
+        "step": 16,
+        "sample_id": "5d8120a16ad05f09",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.6824561403508773
+        }
+      },
+      {
+        "step": 17,
+        "sample_id": "85176a7147b817e0",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.6824561403508773
+        }
+      },
+      {
+        "step": 18,
+        "sample_id": "c463a2e6e8dd1e15",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.461838954773362
+        }
+      },
+      {
+        "step": 19,
+        "sample_id": "111b9b32701ed7d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 2.4518389547733617
+        }
+      },
+      {
+        "step": 20,
+        "sample_id": "c3a9c4bf2519dd6a",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 2.4518389547733617
+        }
+      },
+      {
+        "step": 21,
+        "sample_id": "967ac1d04006f5dd",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.31338510073685
+        }
+      },
+      {
+        "step": 22,
+        "sample_id": "b33e72daa3d2ba1c",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.31338510073685
+        }
+      },
+      {
+        "step": 23,
+        "sample_id": "ea9bf4c2c14279fd",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.31338510073685
+        }
+      },
+      {
+        "step": 24,
+        "sample_id": "bb726cb3565c8a42",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            0.8993832890216344,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.3150269486110897
+        }
+      },
+      {
+        "step": 25,
+        "sample_id": "f5779420a057f8b7",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            0.8993832890216344,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.3150269486110897
+        }
+      },
+      {
+        "step": 26,
+        "sample_id": "736c74b32ae18f9a",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            0.9903760080852745,
+            0.9230769230769231,
+            0.0
+          ],
+          "score": 2.327095340312287
+        }
+      },
+      {
+        "step": 27,
+        "sample_id": "ee5b320b198b3e26",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.252346017454122
+        }
+      },
+      {
+        "step": 28,
+        "sample_id": "8cf23a25cc768e65",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.252346017454122
+        }
+      },
+      {
+        "step": 29,
+        "sample_id": "e4f89715320eabd4",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            0.9479166666666666,
+            0.0
+          ],
+          "score": 2.2419293507874554
+        }
+      },
+      {
+        "step": 30,
+        "sample_id": "2175db2479b427a0",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            0.9479166666666666,
+            0.0
+          ],
+          "score": 2.2419293507874554
+        }
+      },
+      {
+        "step": 31,
+        "sample_id": "f60e4d3101258f30",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.4756741081386468,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.175674108138647
+        }
+      },
+      {
+        "step": 32,
+        "sample_id": "50f4e0108ea716a8",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.4756741081386468,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.175674108138647
+        }
+      },
+      {
+        "step": 33,
+        "sample_id": "50d8e5766e18475a",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 34,
+        "sample_id": "b5ad291ea7b2dc5e",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 2.4858950350216578
+        }
+      },
+      {
+        "step": 35,
+        "sample_id": "958cef1704475e48",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 36,
+        "sample_id": "efae862a61c938fa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 2.4858950350216578
+        }
+      },
+      {
+        "step": 37,
+        "sample_id": "b7d4cb84881d9eaa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.356915943568991
+        }
+      },
+      {
+        "step": 38,
+        "sample_id": "e7f4d9a584464e9b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.252346017454122
+        }
+      },
+      {
+        "step": 39,
+        "sample_id": "a640b6a698a20d7e",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 40,
+        "sample_id": "ed29d3269eb16405",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 2.4858950350216578
+        }
+      },
+      {
+        "step": 41,
+        "sample_id": "7a1e8ff2d6270766",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 42,
+        "sample_id": "de006363a63780c4",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 43,
+        "sample_id": "2ff10768c61edf68",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 2.4858950350216578
+        }
+      },
+      {
+        "step": 44,
+        "sample_id": "cb4eed184e892127",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.356915943568991
+        }
+      },
+      {
+        "step": 45,
+        "sample_id": "e67108c65eb827fa",
+        "cell": "command_injection/original",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 46,
+        "sample_id": "4d249da1376e7a91",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 47,
+        "sample_id": "19be0d570fa1e5bd",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6369258113397523,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.3369258113397526
+        }
+      },
+      {
+        "step": 48,
+        "sample_id": "c0f8471af5d5281a",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6369258113397523,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.3369258113397526
+        }
+      }
+    ]
+  },
+  {
+    "strategy": "no_policy",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 1,
+        "sample_id": "6301a88ea84d2f77",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 1.3
+        }
+      },
+      {
+        "step": 2,
+        "sample_id": "2e148627366fd91b",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.2615384615384617
+        }
+      },
+      {
+        "step": 3,
+        "sample_id": "9c7e63c7188be3db",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.2615384615384617
+        }
+      },
+      {
+        "step": 4,
+        "sample_id": "7e1baedbc618a195",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.2615384615384617
+        }
+      },
+      {
+        "step": 5,
+        "sample_id": "6d61622a7e69f8d7",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.2615384615384617
+        }
+      },
+      {
+        "step": 6,
+        "sample_id": "ca963a87e36bc11b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.2615384615384617
+        }
+      },
+      {
+        "step": 7,
+        "sample_id": "a1add3548791cab9",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.2615384615384617
+        }
+      },
+      {
+        "step": 8,
+        "sample_id": "7092032e803cbb15",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.2615384615384617
+        }
+      },
+      {
+        "step": 9,
+        "sample_id": "118a0e9fda262199",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 1.2615384615384617
+        }
+      },
+      {
+        "step": 10,
+        "sample_id": "5d5a255a87562193",
+        "cell": "command_injection/original",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.1615384615384616
+        }
+      },
+      {
+        "step": 11,
+        "sample_id": "66ba5221b0d6b7c4",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.1615384615384616
+        }
+      },
+      {
+        "step": 12,
+        "sample_id": "9d3e844c1cb30250",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 1.1615384615384616
+        }
+      },
+      {
+        "step": 13,
+        "sample_id": "b376ba8548046b87",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.2
+        }
+      },
+      {
+        "step": 14,
+        "sample_id": "913a590e573985d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.1824561403508773
+        }
+      },
+      {
+        "step": 15,
+        "sample_id": "3a13b60b9c1f1ddb",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.1824561403508773
+        }
+      },
+      {
+        "step": 16,
+        "sample_id": "5d8120a16ad05f09",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.1824561403508773
+        }
+      },
+      {
+        "step": 17,
+        "sample_id": "85176a7147b817e0",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 1.1824561403508773
+        }
+      },
+      {
+        "step": 18,
+        "sample_id": "50d8e5766e18475a",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.1122807017543859
+        }
+      },
+      {
+        "step": 19,
+        "sample_id": "958cef1704475e48",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.1122807017543859
+        }
+      },
+      {
+        "step": 20,
+        "sample_id": "a640b6a698a20d7e",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.1122807017543859
+        }
+      },
+      {
+        "step": 21,
+        "sample_id": "7a1e8ff2d6270766",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.1122807017543859
+        }
+      },
+      {
+        "step": 22,
+        "sample_id": "de006363a63780c4",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.1122807017543859
+        }
+      },
+      {
+        "step": 23,
+        "sample_id": "e67108c65eb827fa",
+        "cell": "command_injection/original",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.1122807017543859
+        }
+      },
+      {
+        "step": 24,
+        "sample_id": "4d249da1376e7a91",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3813978576197632,
+            0.5614035087719297,
+            0.0
+          ],
+          "score": 1.1122807017543859
+        }
+      },
+      {
+        "step": 25,
+        "sample_id": "efae862a61c938fa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.1473684210526316
+        }
+      },
+      {
+        "step": 26,
+        "sample_id": "bb726cb3565c8a42",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.1473684210526316
+        }
+      },
+      {
+        "step": 27,
+        "sample_id": "ed29d3269eb16405",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.1473684210526316
+        }
+      },
+      {
+        "step": 28,
+        "sample_id": "f5779420a057f8b7",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.1473684210526316
+        }
+      },
+      {
+        "step": 29,
+        "sample_id": "2ff10768c61edf68",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.1473684210526316
+        }
+      },
+      {
+        "step": 30,
+        "sample_id": "b5ad291ea7b2dc5e",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.5217342091224322,
+            0.7368421052631579,
+            0.0
+          ],
+          "score": 1.1473684210526316
+        }
+      },
+      {
+        "step": 31,
+        "sample_id": "c463a2e6e8dd1e15",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.2
+        }
+      },
+      {
+        "step": 32,
+        "sample_id": "111b9b32701ed7d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 1.19
+        }
+      },
+      {
+        "step": 33,
+        "sample_id": "c3a9c4bf2519dd6a",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 1.19
+        }
+      },
+      {
+        "step": 34,
+        "sample_id": "81f2c4917c3da884",
+        "cell": "command_injection/original",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.1162259583658202,
+            0.44999999999999996,
+            0.0
+          ],
+          "score": 1.09
+        }
+      },
+      {
+        "step": 35,
+        "sample_id": "b894e8d90a18a171",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.1162259583658202,
+            0.44999999999999996,
+            0.0
+          ],
+          "score": 1.09
+        }
+      },
+      {
+        "step": 36,
+        "sample_id": "18c72042d50420ba",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.1162259583658202,
+            0.44999999999999996,
+            0.0
+          ],
+          "score": 1.09
+        }
+      },
+      {
+        "step": 37,
+        "sample_id": "736c74b32ae18f9a",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6951438880938983,
+            0.7999999999999999,
+            0.0
+          ],
+          "score": 1.16
+        }
+      },
+      {
+        "step": 38,
+        "sample_id": "cb4eed184e892127",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6951438880938983,
+            0.7999999999999999,
+            0.0
+          ],
+          "score": 1.16
+        }
+      },
+      {
+        "step": 39,
+        "sample_id": "b7d4cb84881d9eaa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6951438880938983,
+            0.7999999999999999,
+            0.0
+          ],
+          "score": 1.16
+        }
+      },
+      {
+        "step": 40,
+        "sample_id": "967ac1d04006f5dd",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.9337345313988882,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.1337345313988882
+        }
+      },
+      {
+        "step": 41,
+        "sample_id": "b33e72daa3d2ba1c",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.9337345313988882,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.1337345313988882
+        }
+      },
+      {
+        "step": 42,
+        "sample_id": "ea9bf4c2c14279fd",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.9337345313988882,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.1337345313988882
+        }
+      },
+      {
+        "step": 43,
+        "sample_id": "55ecdeaaef7b1f0c",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3130483632858844,
+            0.6923076923076924,
+            0.0
+          ],
+          "score": 1.1384615384615384
+        }
+      },
+      {
+        "step": 44,
+        "sample_id": "c226569fcc40970f",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3130483632858844,
+            0.6923076923076924,
+            0.0
+          ],
+          "score": 1.1384615384615384
+        }
+      },
+      {
+        "step": 45,
+        "sample_id": "546528e8ec038845",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3130483632858844,
+            0.6923076923076924,
+            0.0
+          ],
+          "score": 1.1384615384615384
+        }
+      },
+      {
+        "step": 46,
+        "sample_id": "8adcfe51b879348c",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3130483632858844,
+            0.6923076923076924,
+            0.0
+          ],
+          "score": 1.1384615384615384
+        }
+      },
+      {
+        "step": 47,
+        "sample_id": "f3c490cdd59aaaba",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.3130483632858844,
+            0.6923076923076924,
+            0.0
+          ],
+          "score": 1.1384615384615384
+        }
+      },
+      {
+        "step": 48,
+        "sample_id": "ee5b320b198b3e26",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.9004881546529204,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 1.1004881546529204
+        }
+      }
+    ]
+  },
+  {
+    "strategy": "no_boundary",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 1,
+        "sample_id": "6301a88ea84d2f77",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 2.6
+        }
+      },
+      {
+        "step": 2,
+        "sample_id": "2e148627366fd91b",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.6
+        }
+      },
+      {
+        "step": 3,
+        "sample_id": "9c7e63c7188be3db",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.6
+        }
+      },
+      {
+        "step": 4,
+        "sample_id": "7e1baedbc618a195",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.6
+        }
+      },
+      {
+        "step": 5,
+        "sample_id": "6d61622a7e69f8d7",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.6
+        }
+      },
+      {
+        "step": 6,
+        "sample_id": "ca963a87e36bc11b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.6
+        }
+      },
+      {
+        "step": 7,
+        "sample_id": "a1add3548791cab9",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.6
+        }
+      },
+      {
+        "step": 8,
+        "sample_id": "7092032e803cbb15",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.6
+        }
+      },
+      {
+        "step": 9,
+        "sample_id": "118a0e9fda262199",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.6
+        }
+      },
+      {
+        "step": 10,
+        "sample_id": "5d5a255a87562193",
+        "cell": "command_injection/original",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.5
+        }
+      },
+      {
+        "step": 11,
+        "sample_id": "66ba5221b0d6b7c4",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.5
+        }
+      },
+      {
+        "step": 12,
+        "sample_id": "9d3e844c1cb30250",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.5
+        }
+      },
+      {
+        "step": 13,
+        "sample_id": "b376ba8548046b87",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.5
+        }
+      },
+      {
+        "step": 14,
+        "sample_id": "913a590e573985d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.5
+        }
+      },
+      {
+        "step": 15,
+        "sample_id": "3a13b60b9c1f1ddb",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.5
+        }
+      },
+      {
+        "step": 16,
+        "sample_id": "5d8120a16ad05f09",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.5
+        }
+      },
+      {
+        "step": 17,
+        "sample_id": "85176a7147b817e0",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.5
+        }
+      },
+      {
+        "step": 18,
+        "sample_id": "c463a2e6e8dd1e15",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.2618389547733617
+        }
+      },
+      {
+        "step": 19,
+        "sample_id": "111b9b32701ed7d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 2.2618389547733617
+        }
+      },
+      {
+        "step": 20,
+        "sample_id": "c3a9c4bf2519dd6a",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 2.2618389547733617
+        }
+      },
+      {
+        "step": 21,
+        "sample_id": "967ac1d04006f5dd",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.11338510073685
+        }
+      },
+      {
+        "step": 22,
+        "sample_id": "b33e72daa3d2ba1c",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.11338510073685
+        }
+      },
+      {
+        "step": 23,
+        "sample_id": "ea9bf4c2c14279fd",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.11338510073685
+        }
+      },
+      {
+        "step": 24,
+        "sample_id": "bb726cb3565c8a42",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            0.8993832890216344,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.1534884870726283
+        }
+      },
+      {
+        "step": 25,
+        "sample_id": "f5779420a057f8b7",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            0.8993832890216344,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.1534884870726283
+        }
+      },
+      {
+        "step": 26,
+        "sample_id": "736c74b32ae18f9a",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            0.9903760080852745,
+            0.9230769230769231,
+            0.0
+          ],
+          "score": 2.1424799556969027
+        }
+      },
+      {
+        "step": 27,
+        "sample_id": "ee5b320b198b3e26",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.0523460174541217
+        }
+      },
+      {
+        "step": 28,
+        "sample_id": "8cf23a25cc768e65",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.0523460174541217
+        }
+      },
+      {
+        "step": 29,
+        "sample_id": "e4f89715320eabd4",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            0.9479166666666666,
+            0.0
+          ],
+          "score": 2.0523460174541217
+        }
+      },
+      {
+        "step": 30,
+        "sample_id": "2175db2479b427a0",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            0.9479166666666666,
+            0.0
+          ],
+          "score": 2.0523460174541217
+        }
+      },
+      {
+        "step": 31,
+        "sample_id": "50d8e5766e18475a",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6812532658309087,
+            0.5833333333333333,
+            0.0
+          ],
+          "score": 2.021879898746363
+        }
+      },
+      {
+        "step": 32,
+        "sample_id": "b5ad291ea7b2dc5e",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            0.9319222086840205,
+            0.765625,
+            0.0
+          ],
+          "score": 2.2022968665662073
+        }
+      },
+      {
+        "step": 33,
+        "sample_id": "958cef1704475e48",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6812532658309087,
+            0.5833333333333333,
+            0.0
+          ],
+          "score": 2.021879898746363
+        }
+      },
+      {
+        "step": 34,
+        "sample_id": "efae862a61c938fa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            0.9319222086840205,
+            0.765625,
+            0.0
+          ],
+          "score": 2.2022968665662073
+        }
+      },
+      {
+        "step": 35,
+        "sample_id": "b7d4cb84881d9eaa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            1.0,
+            0.875,
+            0.0
+          ],
+          "score": 2.156915943568991
+        }
+      },
+      {
+        "step": 36,
+        "sample_id": "e7f4d9a584464e9b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            0.9479166666666666,
+            0.0
+          ],
+          "score": 2.0523460174541217
+        }
+      },
+      {
+        "step": 37,
+        "sample_id": "a640b6a698a20d7e",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6812532658309087,
+            0.5833333333333333,
+            0.0
+          ],
+          "score": 2.021879898746363
+        }
+      },
+      {
+        "step": 38,
+        "sample_id": "ed29d3269eb16405",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            0.9319222086840205,
+            0.765625,
+            0.0
+          ],
+          "score": 2.2022968665662073
+        }
+      },
+      {
+        "step": 39,
+        "sample_id": "7a1e8ff2d6270766",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6812532658309087,
+            0.5833333333333333,
+            0.0
+          ],
+          "score": 2.021879898746363
+        }
+      },
+      {
+        "step": 40,
+        "sample_id": "de006363a63780c4",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6812532658309087,
+            0.5833333333333333,
+            0.0
+          ],
+          "score": 2.021879898746363
+        }
+      },
+      {
+        "step": 41,
+        "sample_id": "2ff10768c61edf68",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            0.9319222086840205,
+            0.765625,
+            0.0
+          ],
+          "score": 2.2022968665662073
+        }
+      },
+      {
+        "step": 42,
+        "sample_id": "cb4eed184e892127",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            1.0,
+            0.875,
+            0.0
+          ],
+          "score": 2.156915943568991
+        }
+      },
+      {
+        "step": 43,
+        "sample_id": "e67108c65eb827fa",
+        "cell": "command_injection/original",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6812532658309087,
+            0.5833333333333333,
+            0.0
+          ],
+          "score": 2.021879898746363
+        }
+      },
+      {
+        "step": 44,
+        "sample_id": "4d249da1376e7a91",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            0.6812532658309087,
+            0.5833333333333333,
+            0.0
+          ],
+          "score": 2.021879898746363
+        }
+      },
+      {
+        "step": 45,
+        "sample_id": "f60e4d3101258f30",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6243761954652929,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.1243761954652927
+        }
+      },
+      {
+        "step": 46,
+        "sample_id": "50f4e0108ea716a8",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6243761954652929,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.1243761954652927
+        }
+      },
+      {
+        "step": 47,
+        "sample_id": "19be0d570fa1e5bd",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6369258113397523,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.1369258113397525
+        }
+      },
+      {
+        "step": 48,
+        "sample_id": "c0f8471af5d5281a",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6369258113397523,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.1369258113397525
+        }
+      }
+    ]
+  },
+  {
+    "strategy": "no_novelty",
+    "seed": 0,
+    "trace": [
+      {
+        "step": 1,
+        "sample_id": "6301a88ea84d2f77",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "score": 2.7
+        }
+      },
+      {
+        "step": 2,
+        "sample_id": "2e148627366fd91b",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 3,
+        "sample_id": "9c7e63c7188be3db",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 4,
+        "sample_id": "7e1baedbc618a195",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 5,
+        "sample_id": "6d61622a7e69f8d7",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 6,
+        "sample_id": "ca963a87e36bc11b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 7,
+        "sample_id": "a1add3548791cab9",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 8,
+        "sample_id": "5d5a255a87562193",
+        "cell": "command_injection/original",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 9,
+        "sample_id": "66ba5221b0d6b7c4",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 10,
+        "sample_id": "9d3e844c1cb30250",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 11,
+        "sample_id": "7092032e803cbb15",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            1.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 12,
+        "sample_id": "7a1e8ff2d6270766",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.661538461538462
+        }
+      },
+      {
+        "step": 13,
+        "sample_id": "b376ba8548046b87",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.7
+        }
+      },
+      {
+        "step": 14,
+        "sample_id": "913a590e573985d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.6824561403508773
+        }
+      },
+      {
+        "step": 15,
+        "sample_id": "3a13b60b9c1f1ddb",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.6824561403508773
+        }
+      },
+      {
+        "step": 16,
+        "sample_id": "5d8120a16ad05f09",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.6824561403508773
+        }
+      },
+      {
+        "step": 17,
+        "sample_id": "85176a7147b817e0",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9122807017543859,
+            0.0
+          ],
+          "score": 2.6824561403508773
+        }
+      },
+      {
+        "step": 18,
+        "sample_id": "c463a2e6e8dd1e15",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.461838954773362
+        }
+      },
+      {
+        "step": 19,
+        "sample_id": "111b9b32701ed7d0",
+        "cell": "command_injection/helper",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 2.4518389547733617
+        }
+      },
+      {
+        "step": 20,
+        "sample_id": "c3a9c4bf2519dd6a",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.7618389547733616,
+            1.0,
+            0.95,
+            0.0
+          ],
+          "score": 2.4518389547733617
+        }
+      },
+      {
+        "step": 21,
+        "sample_id": "967ac1d04006f5dd",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.31338510073685
+        }
+      },
+      {
+        "step": 22,
+        "sample_id": "b33e72daa3d2ba1c",
+        "cell": "command_injection/helper",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.31338510073685
+        }
+      },
+      {
+        "step": 23,
+        "sample_id": "ea9bf4c2c14279fd",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6133851007368503,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.31338510073685
+        }
+      },
+      {
+        "step": 24,
+        "sample_id": "bb726cb3565c8a42",
+        "cell": "path_traversal/helper",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            0.8993832890216344,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.3150269486110897
+        }
+      },
+      {
+        "step": 25,
+        "sample_id": "f5779420a057f8b7",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            0.8993832890216344,
+            0.8076923076923077,
+            0.0
+          ],
+          "score": 2.3150269486110897
+        }
+      },
+      {
+        "step": 26,
+        "sample_id": "736c74b32ae18f9a",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            0.9903760080852745,
+            0.9230769230769231,
+            0.0
+          ],
+          "score": 2.327095340312287
+        }
+      },
+      {
+        "step": 27,
+        "sample_id": "ee5b320b198b3e26",
+        "cell": "command_injection/helper",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.252346017454122
+        }
+      },
+      {
+        "step": 28,
+        "sample_id": "8cf23a25cc768e65",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.252346017454122
+        }
+      },
+      {
+        "step": 29,
+        "sample_id": "e4f89715320eabd4",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            0.9479166666666666,
+            0.0
+          ],
+          "score": 2.2419293507874554
+        }
+      },
+      {
+        "step": 30,
+        "sample_id": "2175db2479b427a0",
+        "cell": "sql_injection/helper",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            0.9479166666666666,
+            0.0
+          ],
+          "score": 2.2419293507874554
+        }
+      },
+      {
+        "step": 31,
+        "sample_id": "f60e4d3101258f30",
+        "cell": "sql_injection/formatted",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.4756741081386468,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.175674108138647
+        }
+      },
+      {
+        "step": 32,
+        "sample_id": "50f4e0108ea716a8",
+        "cell": "sql_injection/original",
+        "family": "sql_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.4756741081386468,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.175674108138647
+        }
+      },
+      {
+        "step": 33,
+        "sample_id": "50d8e5766e18475a",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            1.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 34,
+        "sample_id": "b5ad291ea7b2dc5e",
+        "cell": "path_traversal/renamed",
+        "family": "path_traversal-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 2.4858950350216578
+        }
+      },
+      {
+        "step": 35,
+        "sample_id": "958cef1704475e48",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 36,
+        "sample_id": "efae862a61c938fa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 2.4858950350216578
+        }
+      },
+      {
+        "step": 37,
+        "sample_id": "b7d4cb84881d9eaa",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.356915943568991
+        }
+      },
+      {
+        "step": 38,
+        "sample_id": "e7f4d9a584464e9b",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.5523460174541219,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.252346017454122
+        }
+      },
+      {
+        "step": 39,
+        "sample_id": "a640b6a698a20d7e",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 40,
+        "sample_id": "ed29d3269eb16405",
+        "cell": "path_traversal/formatted",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 2.4858950350216578
+        }
+      },
+      {
+        "step": 41,
+        "sample_id": "de006363a63780c4",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 42,
+        "sample_id": "2ff10768c61edf68",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            0.8044135535401765,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 2.4858950350216578
+        }
+      },
+      {
+        "step": 43,
+        "sample_id": "cb4eed184e892127",
+        "cell": "sql_injection/renamed",
+        "family": "sql_injection-2",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.656915943568991,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.356915943568991
+        }
+      },
+      {
+        "step": 44,
+        "sample_id": "e67108c65eb827fa",
+        "cell": "command_injection/original",
+        "family": "command_injection-0",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 45,
+        "sample_id": "4d249da1376e7a91",
+        "cell": "command_injection/renamed",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 46,
+        "sample_id": "b894e8d90a18a171",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-0",
+        "correct": true,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.691358024691358,
+            0.0
+          ],
+          "score": 2.6382716049382715
+        }
+      },
+      {
+        "step": 47,
+        "sample_id": "118a0e9fda262199",
+        "cell": "path_traversal/original",
+        "family": "path_traversal-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            1.0,
+            1.0,
+            0.9074074074074074,
+            0.0
+          ],
+          "score": 2.6814814814814816
+        }
+      },
+      {
+        "step": 48,
+        "sample_id": "19be0d570fa1e5bd",
+        "cell": "command_injection/formatted",
+        "family": "command_injection-1",
+        "correct": false,
+        "acquisition": {
+          "normalised": [
+            0.6369258113397523,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "score": 2.3369258113397526
+        }
+      }
+    ]
+  }
+]

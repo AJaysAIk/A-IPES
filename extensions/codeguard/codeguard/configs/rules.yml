@@ -1,0 +1,44 @@
+rules:
+  - id: sql_injection
+    languages: [python]
+    mode: taint
+    message: Untrusted parameter reaches a single-argument SQL execution
+    severity: WARNING
+    pattern-sources:
+      - patterns:
+          - pattern-inside: |
+              def $F(..., $ARG, ...):
+                ...
+          - focus-metavariable: $ARG
+    pattern-sinks:
+      - pattern: $DB.execute($QUERY)
+  - id: command_injection
+    languages: [python]
+    mode: taint
+    message: Untrusted parameter reaches shell command text
+    severity: WARNING
+    pattern-sources:
+      - patterns:
+          - pattern-inside: |
+              def $F(..., $ARG, ...):
+                ...
+          - focus-metavariable: $ARG
+    pattern-sinks:
+      - patterns:
+          - pattern: subprocess.run($CMD, ..., shell=True, ...)
+          - focus-metavariable: $CMD
+  - id: path_traversal
+    languages: [python]
+    mode: taint
+    message: Untrusted parameter influences a file-read path
+    severity: WARNING
+    pattern-sources:
+      - patterns:
+          - pattern-inside: |
+              def $F(..., $ARG, ...):
+                ...
+          - focus-metavariable: $ARG
+    pattern-sinks:
+      - patterns:
+          - pattern: $PATH.read_text(...)
+          - focus-metavariable: $PATH

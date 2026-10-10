@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code-agent-security-eval"
+version = "0.1.0"
+description = "Defensive evaluation harness for LLM code review and Semgrep baselines."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Ajay Sai Kummara"}]
+dependencies = ["pydantic>=2.7,<3", "rich>=13.7,<15"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.6,<1", "numpy>=2,<3", "scipy>=1.14,<2"]
+semgrep = ["semgrep>=1.80,<2"]
+codeguard = ["numpy>=2,<3", "scipy>=1.14,<2", "matplotlib>=3.9,<4"]
+local-model = ["mlx-lm==0.32.0; sys_platform == 'darwin' and platform_machine == 'arm64'"]
+
+[project.urls]
+Repository = "https://github.com/AJaysAIk/code-agent-security-eval"
+
+[project.scripts]
+code-agent-eval = "code_agent_eval.cli:main"
+codeguard = "codeguard.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

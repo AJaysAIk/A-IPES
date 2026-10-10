@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "detector": "semgrep",
+  "detector_version": "1.178.0",
+  "corpus_sha256": "d80d47750a1b6d5e72c99832b69817b780a773be5778aab9cedbc5d56ab18900",
+  "rules_sha256": "2f860ea2e21f425fa985c83d08eb9fbccddae0e12ceb23ab23dbe0088a6a8c6a",
+  "sample_count": 6,
+  "decision_count": 18,
+  "metrics": {
+    "tp": 3,
+    "fp": 0,
+    "tn": 15,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0
+  },
+  "per_class": {
+    "sql_injection": {
+      "tp": 1,
+      "fp": 0,
+      "tn": 5,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "command_injection": {
+      "tp": 1,
+      "fp": 0,
+      "tn": 5,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "path_traversal": {
+      "tp": 1,
+      "fp": 0,
+      "tn": 5,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    }
+  },
+  "results": [
+    {
+      "sample_id": "sample-001",
+      "findings": [
+        {
+          "sample_id": "sample-001",
+          "vulnerability": "sql_injection",
+          "line": 5,
+          "message": "Toy rule — interpolated SQL passed to execute."
+        }
+      ]
+    },
+    {
+      "sample_id": "sample-002",
+      "findings": []
+    },
+    {
+      "sample_id": "sample-003",
+      "findings": [
+        {
+          "sample_id": "sample-003",
+          "vulnerability": "command_injection",
+          "line": 7,
+          "message": "Toy rule — subprocess call enables shell interpretation."
+        }
+      ]
+    },
+    {
+      "sample_id": "sample-004",
+      "findings": []
+    },
+    {
+      "sample_id": "sample-005",
+      "findings": [
+        {
+          "sample_id": "sample-005",
+          "vulnerability": "path_traversal",
+          "line": 7,
+          "message": "Toy rule — unchecked filename used directly in a path expression."
+        }
+      ]
+    },
+    {
+      "sample_id": "sample-006",
+      "findings": []
+    }
+  ]
+}

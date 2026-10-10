@@ -1,0 +1,28 @@
+name: CodeGuard extension
+on:
+  push:
+    paths: ['extensions/codeguard/**', '.github/workflows/codeguard.yml']
+  pull_request:
+    paths: ['extensions/codeguard/**', '.github/workflows/codeguard.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    defaults:
+      run:
+        working-directory: extensions/codeguard
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e '.[dev,codeguard]' semgrep==1.178.0
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: python -m codeguard validate
+      - run: python -m pytest -q
+      - run: python -m codeguard.demo

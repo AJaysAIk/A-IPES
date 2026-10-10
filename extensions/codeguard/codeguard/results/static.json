@@ -1,0 +1,3463 @@
+{
+  "results": [
+    {
+      "sample_id": "8cf23a25cc768e65",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "2ff10768c61edf68",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "85176a7147b817e0",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "736c74b32ae18f9a",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "967ac1d04006f5dd",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "9c7e63c7188be3db",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "ea9bf4c2c14279fd",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "18747e12c4bd5770",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "c463a2e6e8dd1e15",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "f1fd04df502caf8e",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "7092032e803cbb15",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "f5779420a057f8b7",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "50f4e0108ea716a8",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "3d5ba54bcf5b55d4",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "f60e4d3101258f30",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "2175db2479b427a0",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "b376ba8548046b87",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "de006363a63780c4",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "c3a9c4bf2519dd6a",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "9d3e844c1cb30250",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "2e148627366fd91b",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "cb4eed184e892127",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "e4f89715320eabd4",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "5d8120a16ad05f09",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "d3789386011090ab",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "8527f1cb0cf3c8d1",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "3b3a70cf5b74b178",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "0b1f54bedb140c77",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "8aa96d8aadbd9d43",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "21fa72cdc465d098",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "65ed4777e6cba180",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "1b67727665256355",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "8e3c7b10af187458",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "f8c733c1cef593a5",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "bdca4609a62e776a",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "db0b66ad698f6e14",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "58b0a5e1143c3438",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "d13f558159842c4b",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "8b2249181e4dfb6f",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "bf66128201159cfa",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "2a310cee52cbfcc2",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "9714d8d925a79c6b",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "532fab634764ecc5",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "0e0c7fd1bf59548d",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "ebe29f11e3dd1549",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "0ae320d3ea29e88e",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "0c3c9c8f87ecd376",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "1dab5d770b987e46",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "79401a374b8f918e",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "18c72042d50420ba",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "b7d4cb84881d9eaa",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "111b9b32701ed7d0",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "e67108c65eb827fa",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "f3c490cdd59aaaba",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "ca963a87e36bc11b",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "c0f8471af5d5281a",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "d3e6cfe645606e0c",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "83c5076ef9afa1eb",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "958cef1704475e48",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "6301a88ea84d2f77",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "81f2c4917c3da884",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "4d249da1376e7a91",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "19be0d570fa1e5bd",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "ee5b320b198b3e26",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "c0ea40927a894f8b",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "492dc9fbf468b8ea",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "efae862a61c938fa",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "913a590e573985d0",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "5d5a255a87562193",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "a1add3548791cab9",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "e7f4d9a584464e9b",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "b33e72daa3d2ba1c",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "f8e9cc4c3a6d4b84",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "101a5af6853b486d",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "e3b4aa0b4e090380",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "3815bc4a0e4f4f96",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "3db706921e913b06",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "70cbb40df6fa2727",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "511ae179f75b624a",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "06e34c63d988392d",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "35d519db1a07bd48",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "c0a1e771499a653c",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "c2b469007d68d0d5",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "464e9594aff002dd",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "40925f1c20153024",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "78d1ec571b52bac3",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "a91f74ab1c5bbdc8",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "4c66478c81860489",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "57bdad9d040ddcde",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "f049cd7abdc40294",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "ffd98cd1c9d215ed",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "dff495dba581df6f",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "7f58398bf110f530",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "759ab2b7b62516b1",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "ef912eae56b59596",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "eb6370ea33ce3372",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": true,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "20d9c136aad45141",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "3629a49416fad68d",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "7658033bf581082f",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "8adcfe51b879348c",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "b894e8d90a18a171",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "7e1baedbc618a195",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "db3a8bb991093be9",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "3a13b60b9c1f1ddb",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "156999407227db5d",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "50d8e5766e18475a",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "55ecdeaaef7b1f0c",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "56da1fcc5a946b9e",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "118a0e9fda262199",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "bb5be9b9305979c4",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "ed29d3269eb16405",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "eeebeed488827a52",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "546528e8ec038845",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "c226569fcc40970f",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "a640b6a698a20d7e",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "66ba5221b0d6b7c4",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "7a1e8ff2d6270766",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "b5ad291ea7b2dc5e",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "6d61622a7e69f8d7",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "bb726cb3565c8a42",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "36109a6371f6ce8a",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "d3af28d588ec26a3",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "d468795fa389a77e",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "502fd4dace425b4d",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "6011ed55f847c26d",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "4d5c462c4a008715",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "59526a4532428581",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "e79e24cdf9d63c3d",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "faa1c24e6f0bfceb",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "c8e3ec7410a709f5",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "498e8d09a98ffc78",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "6ce7553f03ff5118",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "79b795d3982421e5",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "85c7dfa91d130984",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "5421dc2a85cfb5bb",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "c7fa2130abceed49",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "9df8f96dc176feda",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "dba295fcd3682fc9",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "2346d8ad869ed79d",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "35528bd9ac027dce",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "sample_id": "bfde952b9fb48239",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "b18e641118a992b8",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "7471760d109e7325",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    },
+    {
+      "sample_id": "cab13f6b41004ff2",
+      "status": "ok",
+      "predictions": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": true
+      }
+    }
+  ],
+  "batch_seconds": 3.8796020000008866,
+  "version": "1.178.0",
+  "raw": {
+    "version": "1.178.0",
+    "results": [
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/06e34c63d988392d.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 103
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 110
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/0ae320d3ea29e88e.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 113
+        },
+        "end": {
+          "line": 3,
+          "col": 35,
+          "offset": 136
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/0c3c9c8f87ecd376.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 111
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 130
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/118a0e9fda262199.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 122
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 128
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/18747e12c4bd5770.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 97
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 116
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/19be0d570fa1e5bd.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 113
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 120
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/1b67727665256355.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 99
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 118
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/1dab5d770b987e46.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 107
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 126
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/20d9c136aad45141.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 126
+        },
+        "end": {
+          "line": 6,
+          "col": 24,
+          "offset": 138
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/2175db2479b427a0.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 105
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 124
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/21fa72cdc465d098.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 105
+        },
+        "end": {
+          "line": 3,
+          "col": 35,
+          "offset": 128
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/2e148627366fd91b.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 106
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 125
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/3629a49416fad68d.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 127
+        },
+        "end": {
+          "line": 6,
+          "col": 25,
+          "offset": 140
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/3a13b60b9c1f1ddb.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 110
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 116
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/3d5ba54bcf5b55d4.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 111
+        },
+        "end": {
+          "line": 3,
+          "col": 35,
+          "offset": 134
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/3db706921e913b06.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 107
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 114
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/40925f1c20153024.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 113
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 120
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/498e8d09a98ffc78.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 169
+        },
+        "end": {
+          "line": 6,
+          "col": 24,
+          "offset": 181
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/4c66478c81860489.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 109
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 116
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/4d249da1376e7a91.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 113
+        },
+        "end": {
+          "line": 5,
+          "col": 36,
+          "offset": 122
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/4d5c462c4a008715.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 115
+        },
+        "end": {
+          "line": 6,
+          "col": 20,
+          "offset": 123
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/50f4e0108ea716a8.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 109
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 128
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/511ae179f75b624a.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 107
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 114
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/5421dc2a85cfb5bb.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 115
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 121
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/546528e8ec038845.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 120
+        },
+        "end": {
+          "line": 6,
+          "col": 30,
+          "offset": 138
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/58b0a5e1143c3438.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 109
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 128
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/59526a4532428581.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 115
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 121
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/5d5a255a87562193.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 105
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 112
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/5d8120a16ad05f09.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 102
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 121
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/6011ed55f847c26d.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 115
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 121
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/65ed4777e6cba180.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 103
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 122
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/66ba5221b0d6b7c4.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 116
+        },
+        "end": {
+          "line": 6,
+          "col": 30,
+          "offset": 134
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/6ce7553f03ff5118.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 165
+        },
+        "end": {
+          "line": 6,
+          "col": 24,
+          "offset": 177
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/6d61622a7e69f8d7.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 127
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 133
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/70cbb40df6fa2727.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 107
+        },
+        "end": {
+          "line": 5,
+          "col": 36,
+          "offset": 116
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/7471760d109e7325.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 123
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 129
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/759ab2b7b62516b1.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 110
+        },
+        "end": {
+          "line": 5,
+          "col": 36,
+          "offset": 119
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/7658033bf581082f.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 126
+        },
+        "end": {
+          "line": 6,
+          "col": 24,
+          "offset": 138
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/78d1ec571b52bac3.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 113
+        },
+        "end": {
+          "line": 5,
+          "col": 36,
+          "offset": 122
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/79b795d3982421e5.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 115
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 121
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/7a1e8ff2d6270766.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 127
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 133
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/7e1baedbc618a195.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 114
+        },
+        "end": {
+          "line": 6,
+          "col": 20,
+          "offset": 122
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/7f58398bf110f530.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 110
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 117
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/81f2c4917c3da884.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 113
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 120
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/85c7dfa91d130984.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 115
+        },
+        "end": {
+          "line": 6,
+          "col": 20,
+          "offset": 123
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/8aa96d8aadbd9d43.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 103
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 122
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/8adcfe51b879348c.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 122
+        },
+        "end": {
+          "line": 6,
+          "col": 24,
+          "offset": 134
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/8b2249181e4dfb6f.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 109
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 128
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/967ac1d04006f5dd.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 101
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 120
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/9c7e63c7188be3db.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 103
+        },
+        "end": {
+          "line": 3,
+          "col": 35,
+          "offset": 126
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/a1add3548791cab9.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 105
+        },
+        "end": {
+          "line": 5,
+          "col": 36,
+          "offset": 114
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/a640b6a698a20d7e.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 120
+        },
+        "end": {
+          "line": 6,
+          "col": 30,
+          "offset": 138
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/a91f74ab1c5bbdc8.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 113
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 120
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/b18e641118a992b8.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 123
+        },
+        "end": {
+          "line": 6,
+          "col": 20,
+          "offset": 131
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/b33e72daa3d2ba1c.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 101
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 108
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/b5ad291ea7b2dc5e.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 127
+        },
+        "end": {
+          "line": 6,
+          "col": 20,
+          "offset": 135
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/b894e8d90a18a171.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 114
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 120
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/bb5be9b9305979c4.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 122
+        },
+        "end": {
+          "line": 6,
+          "col": 20,
+          "offset": 130
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/bb726cb3565c8a42.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 123
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 129
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/bf66128201159cfa.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 105
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 124
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/bfde952b9fb48239.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 123
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 129
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/c0f8471af5d5281a.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 101
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 108
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/c226569fcc40970f.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 121
+        },
+        "end": {
+          "line": 6,
+          "col": 31,
+          "offset": 140
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/c7fa2130abceed49.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 111
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 117
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/c8e3ec7410a709f5.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 170
+        },
+        "end": {
+          "line": 6,
+          "col": 25,
+          "offset": 183
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/ca963a87e36bc11b.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 105
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 112
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/cab13f6b41004ff2.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 119
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 125
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/cb4eed184e892127.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 108
+        },
+        "end": {
+          "line": 3,
+          "col": 35,
+          "offset": 131
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/d13f558159842c4b.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 111
+        },
+        "end": {
+          "line": 3,
+          "col": 35,
+          "offset": 134
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/db3a8bb991093be9.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 114
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 120
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/e4f89715320eabd4.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 106
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 125
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/e67108c65eb827fa.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 105
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 112
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/e79e24cdf9d63c3d.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 111
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 117
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/e7f4d9a584464e9b.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 105
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 112
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/ea9bf4c2c14279fd.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 101
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 120
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/eb6370ea33ce3372.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 106
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 113
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/ebe29f11e3dd1549.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 111
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 130
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/ed29d3269eb16405.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 122
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 128
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/ee5b320b198b3e26.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 109
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 116
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/eeebeed488827a52.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 118
+        },
+        "end": {
+          "line": 6,
+          "col": 18,
+          "offset": 124
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/ef912eae56b59596.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 110
+        },
+        "end": {
+          "line": 5,
+          "col": 34,
+          "offset": 117
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.command_injection",
+        "path": "recorded-scan/f3c490cdd59aaaba.py",
+        "start": {
+          "line": 5,
+          "col": 27,
+          "offset": 105
+        },
+        "end": {
+          "line": 5,
+          "col": 36,
+          "offset": 114
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches shell command text",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.sql_injection",
+        "path": "recorded-scan/f60e4d3101258f30.py",
+        "start": {
+          "line": 3,
+          "col": 12,
+          "offset": 109
+        },
+        "end": {
+          "line": 3,
+          "col": 31,
+          "offset": 128
+        },
+        "extra": {
+          "message": "Untrusted parameter reaches a single-argument SQL execution",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      },
+      {
+        "check_id": "codeguard.configs.path_traversal",
+        "path": "recorded-scan/faa1c24e6f0bfceb.py",
+        "start": {
+          "line": 6,
+          "col": 12,
+          "offset": 169
+        },
+        "end": {
+          "line": 6,
+          "col": 24,
+          "offset": 181
+        },
+        "extra": {
+          "message": "Untrusted parameter influences a file-read path",
+          "metadata": {},
+          "severity": "WARNING",
+          "fingerprint": "requires login",
+          "lines": "requires login",
+          "validation_state": "NO_VALIDATOR",
+          "engine_kind": "OSS"
+        }
+      }
+    ],
+    "errors": [],
+    "paths": {
+      "scanned": [
+        "recorded-scan/06e34c63d988392d.py",
+        "recorded-scan/0ae320d3ea29e88e.py",
+        "recorded-scan/0b1f54bedb140c77.py",
+        "recorded-scan/0c3c9c8f87ecd376.py",
+        "recorded-scan/0e0c7fd1bf59548d.py",
+        "recorded-scan/101a5af6853b486d.py",
+        "recorded-scan/111b9b32701ed7d0.py",
+        "recorded-scan/118a0e9fda262199.py",
+        "recorded-scan/156999407227db5d.py",
+        "recorded-scan/18747e12c4bd5770.py",
+        "recorded-scan/18c72042d50420ba.py",
+        "recorded-scan/19be0d570fa1e5bd.py",
+        "recorded-scan/1b67727665256355.py",
+        "recorded-scan/1dab5d770b987e46.py",
+        "recorded-scan/20d9c136aad45141.py",
+        "recorded-scan/2175db2479b427a0.py",
+        "recorded-scan/21fa72cdc465d098.py",
+        "recorded-scan/2346d8ad869ed79d.py",
+        "recorded-scan/2a310cee52cbfcc2.py",
+        "recorded-scan/2e148627366fd91b.py",
+        "recorded-scan/2ff10768c61edf68.py",
+        "recorded-scan/35528bd9ac027dce.py",
+        "recorded-scan/35d519db1a07bd48.py",
+        "recorded-scan/36109a6371f6ce8a.py",
+        "recorded-scan/3629a49416fad68d.py",
+        "recorded-scan/3815bc4a0e4f4f96.py",
+        "recorded-scan/3a13b60b9c1f1ddb.py",
+        "recorded-scan/3b3a70cf5b74b178.py",
+        "recorded-scan/3d5ba54bcf5b55d4.py",
+        "recorded-scan/3db706921e913b06.py",
+        "recorded-scan/40925f1c20153024.py",
+        "recorded-scan/464e9594aff002dd.py",
+        "recorded-scan/492dc9fbf468b8ea.py",
+        "recorded-scan/498e8d09a98ffc78.py",
+        "recorded-scan/4c66478c81860489.py",
+        "recorded-scan/4d249da1376e7a91.py",
+        "recorded-scan/4d5c462c4a008715.py",
+        "recorded-scan/502fd4dace425b4d.py",
+        "recorded-scan/50d8e5766e18475a.py",
+        "recorded-scan/50f4e0108ea716a8.py",
+        "recorded-scan/511ae179f75b624a.py",
+        "recorded-scan/532fab634764ecc5.py",
+        "recorded-scan/5421dc2a85cfb5bb.py",
+        "recorded-scan/546528e8ec038845.py",
+        "recorded-scan/55ecdeaaef7b1f0c.py",
+        "recorded-scan/56da1fcc5a946b9e.py",
+        "recorded-scan/57bdad9d040ddcde.py",
+        "recorded-scan/58b0a5e1143c3438.py",
+        "recorded-scan/59526a4532428581.py",
+        "recorded-scan/5d5a255a87562193.py",
+        "recorded-scan/5d8120a16ad05f09.py",
+        "recorded-scan/6011ed55f847c26d.py",
+        "recorded-scan/6301a88ea84d2f77.py",
+        "recorded-scan/65ed4777e6cba180.py",
+        "recorded-scan/66ba5221b0d6b7c4.py",
+        "recorded-scan/6ce7553f03ff5118.py",
+        "recorded-scan/6d61622a7e69f8d7.py",
+        "recorded-scan/7092032e803cbb15.py",
+        "recorded-scan/70cbb40df6fa2727.py",
+        "recorded-scan/736c74b32ae18f9a.py",
+        "recorded-scan/7471760d109e7325.py",
+        "recorded-scan/759ab2b7b62516b1.py",
+        "recorded-scan/7658033bf581082f.py",
+        "recorded-scan/78d1ec571b52bac3.py",
+        "recorded-scan/79401a374b8f918e.py",
+        "recorded-scan/79b795d3982421e5.py",
+        "recorded-scan/7a1e8ff2d6270766.py",
+        "recorded-scan/7e1baedbc618a195.py",
+        "recorded-scan/7f58398bf110f530.py",
+        "recorded-scan/81f2c4917c3da884.py",
+        "recorded-scan/83c5076ef9afa1eb.py",
+        "recorded-scan/85176a7147b817e0.py",
+        "recorded-scan/8527f1cb0cf3c8d1.py",
+        "recorded-scan/85c7dfa91d130984.py",
+        "recorded-scan/8aa96d8aadbd9d43.py",
+        "recorded-scan/8adcfe51b879348c.py",
+        "recorded-scan/8b2249181e4dfb6f.py",
+        "recorded-scan/8cf23a25cc768e65.py",
+        "recorded-scan/8e3c7b10af187458.py",
+        "recorded-scan/913a590e573985d0.py",
+        "recorded-scan/958cef1704475e48.py",
+        "recorded-scan/967ac1d04006f5dd.py",
+        "recorded-scan/9714d8d925a79c6b.py",
+        "recorded-scan/9c7e63c7188be3db.py",
+        "recorded-scan/9d3e844c1cb30250.py",
+        "recorded-scan/9df8f96dc176feda.py",
+        "recorded-scan/a1add3548791cab9.py",
+        "recorded-scan/a640b6a698a20d7e.py",
+        "recorded-scan/a91f74ab1c5bbdc8.py",
+        "recorded-scan/b18e641118a992b8.py",
+        "recorded-scan/b33e72daa3d2ba1c.py",
+        "recorded-scan/b376ba8548046b87.py",
+        "recorded-scan/b5ad291ea7b2dc5e.py",
+        "recorded-scan/b7d4cb84881d9eaa.py",
+        "recorded-scan/b894e8d90a18a171.py",
+        "recorded-scan/bb5be9b9305979c4.py",
+        "recorded-scan/bb726cb3565c8a42.py",
+        "recorded-scan/bdca4609a62e776a.py",
+        "recorded-scan/bf66128201159cfa.py",
+        "recorded-scan/bfde952b9fb48239.py",
+        "recorded-scan/c0a1e771499a653c.py",
+        "recorded-scan/c0ea40927a894f8b.py",
+        "recorded-scan/c0f8471af5d5281a.py",
+        "recorded-scan/c226569fcc40970f.py",
+        "recorded-scan/c2b469007d68d0d5.py",
+        "recorded-scan/c3a9c4bf2519dd6a.py",
+        "recorded-scan/c463a2e6e8dd1e15.py",
+        "recorded-scan/c7fa2130abceed49.py",
+        "recorded-scan/c8e3ec7410a709f5.py",
+        "recorded-scan/ca963a87e36bc11b.py",
+        "recorded-scan/cab13f6b41004ff2.py",
+        "recorded-scan/cb4eed184e892127.py",
+        "recorded-scan/d13f558159842c4b.py",
+        "recorded-scan/d3789386011090ab.py",
+        "recorded-scan/d3af28d588ec26a3.py",
+        "recorded-scan/d3e6cfe645606e0c.py",
+        "recorded-scan/d468795fa389a77e.py",
+        "recorded-scan/db0b66ad698f6e14.py",
+        "recorded-scan/db3a8bb991093be9.py",
+        "recorded-scan/dba295fcd3682fc9.py",
+        "recorded-scan/de006363a63780c4.py",
+        "recorded-scan/dff495dba581df6f.py",
+        "recorded-scan/e3b4aa0b4e090380.py",
+        "recorded-scan/e4f89715320eabd4.py",
+        "recorded-scan/e67108c65eb827fa.py",
+        "recorded-scan/e79e24cdf9d63c3d.py",
+        "recorded-scan/e7f4d9a584464e9b.py",
+        "recorded-scan/ea9bf4c2c14279fd.py",
+        "recorded-scan/eb6370ea33ce3372.py",
+        "recorded-scan/ebe29f11e3dd1549.py",
+        "recorded-scan/ed29d3269eb16405.py",
+        "recorded-scan/ee5b320b198b3e26.py",
+        "recorded-scan/eeebeed488827a52.py",
+        "recorded-scan/ef912eae56b59596.py",
+        "recorded-scan/efae862a61c938fa.py",
+        "recorded-scan/f049cd7abdc40294.py",
+        "recorded-scan/f1fd04df502caf8e.py",
+        "recorded-scan/f3c490cdd59aaaba.py",
+        "recorded-scan/f5779420a057f8b7.py",
+        "recorded-scan/f60e4d3101258f30.py",
+        "recorded-scan/f8c733c1cef593a5.py",
+        "recorded-scan/f8e9cc4c3a6d4b84.py",
+        "recorded-scan/faa1c24e6f0bfceb.py",
+        "recorded-scan/ffd98cd1c9d215ed.py"
+      ]
+    },
+    "time": {
+      "rules": [],
+      "rules_parse_time": 0.0018780231475830078,
+      "profiling_times": {
+        "config_time": 0.1650218963623047,
+        "core_time": 0.4416389465332031,
+        "ignores_time": 0.000125885009765625,
+        "total_time": 0.6149208545684814
+      },
+      "parsing_time": {
+        "total_time": 0.0,
+        "per_file_time": {
+          "mean": 0.0,
+          "std_dev": 0.0
+        },
+        "very_slow_stats": {
+          "time_ratio": 0.0,
+          "count_ratio": 0.0
+        },
+        "very_slow_files": []
+      },
+      "scanning_time": {
+        "total_time": 0.22788572311401367,
+        "per_file_time": {
+          "mean": 0.001582539743847317,
+          "std_dev": 8.809907741256534e-06
+        },
+        "very_slow_stats": {
+          "time_ratio": 0.0,
+          "count_ratio": 0.0
+        },
+        "very_slow_files": []
+      },
+      "matching_time": {
+        "total_time": 0.0,
+        "per_file_and_rule_time": {
+          "mean": 0.0,
+          "std_dev": 0.0
+        },
+        "very_slow_stats": {
+          "time_ratio": 0.0,
+          "count_ratio": 0.0
+        },
+        "very_slow_rules_on_files": []
+      },
+      "tainting_time": {
+        "total_time": 0.0,
+        "per_def_and_rule_time": {
+          "mean": 0.0,
+          "std_dev": 0.0
+        },
+        "very_slow_stats": {
+          "time_ratio": 0.0,
+          "count_ratio": 0.0
+        },
+        "very_slow_rules_on_defs": []
+      },
+      "fixpoint_timeouts": [],
+      "prefiltering": {
+        "project_level_time": 0.0,
+        "file_level_time": 0.0,
+        "rules_with_project_prefilters_ratio": 0.0,
+        "rules_with_file_prefilters_ratio": 1.0,
+        "rules_selected_ratio": 0.3333333333333333,
+        "rules_matched_ratio": 0.3333333333333333
+      },
+      "targets": [],
+      "total_bytes": 0,
+      "max_memory_bytes": 132343168
+    },
+    "engine_requested": "OSS",
+    "skipped_rules": [],
+    "profiling_results": []
+  },
+  "corpus_sha256": "ef5725e0295d48dcf2cd7979e824537fc80d8b6fcbe218dd1a950b68bb7fb740",
+  "rules_sha256": "98a66c0932431839025a5448e87afddced96a4fca5a05ec083db12f92bd36d51"
+}

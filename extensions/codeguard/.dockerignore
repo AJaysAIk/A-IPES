@@ -1,0 +1,7 @@
+.git
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+codeguard/models
+codeguard/configs/model-local.json

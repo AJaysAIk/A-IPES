@@ -25,6 +25,12 @@ Adaptive selection has a **budget-dependent advantage**: passive characterisatio
 
 At budget 5, both methods have zero observed false-positive rate in this benchmark. This is evidence from a controlled synthetic setting, not a guarantee for deployed agents. The passive baseline is literature-inspired, not an exact reproduction of an external system; its metadata prior also differs from the active method’s starting hypothesis space. See [research limitations](docs/RESEARCH_NOTES.md).
 
+## CodeGuard: post-dissertation extension
+
+[CodeGuard](extensions/codeguard/README.md) transfers the budgeted-testing philosophy to code-review reliability using a real local code model, 144 paired source samples, Semgrep, and eight acquisition strategies. It is a separate pilot, not a replacement for the dissertation experiments above.
+
+The held-out local model detected 10/36 vulnerabilities. Semgrep and the OR hybrid detected 36/36 but flagged 4/36 safe cases; the hybrid added no benefit over Semgrep alone. Adaptive selection did not improve the primary held-out reliability-estimation endpoint. [Full findings and limitations](extensions/codeguard/codeguard/docs/FINDINGS.md) include every ablation, raw results and overhead accounting.
+
 ## Quick start
 
 Requires Python 3.10 or newer. No API keys or external model services are needed.

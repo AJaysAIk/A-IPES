@@ -1,0 +1,16 @@
+rules:
+  - id: sql_injection
+    languages: [python]
+    severity: WARNING
+    message: Toy rule — interpolated SQL passed to execute.
+    pattern: $CONN.execute(f"...", ...)
+  - id: command_injection
+    languages: [python]
+    severity: WARNING
+    message: Toy rule — subprocess call enables shell interpretation.
+    pattern: subprocess.run(..., shell=True, ...)
+  - id: path_traversal
+    languages: [python]
+    severity: WARNING
+    message: Toy rule — unchecked filename used directly in a path expression.
+    pattern: $BASE / filename

@@ -1,0 +1,836 @@
+{
+  "metrics": {
+    "development": {
+      "model": {
+        "samples": 72,
+        "valid": 72,
+        "coverage": 1.0,
+        "target_class": {
+          "tp": 5,
+          "fn": 31,
+          "fp": 0,
+          "tn": 36,
+          "recall": 0.1388888888888889,
+          "precision": 1.0,
+          "fpr": 0.0,
+          "f1": 0.24390243902439024
+        },
+        "micro_all_classes": {
+          "tp": 5,
+          "fn": 31,
+          "fp": 0,
+          "tn": 180,
+          "recall": 0.1388888888888889,
+          "precision": 1.0,
+          "fpr": 0.0,
+          "f1": 0.24390243902439024
+        },
+        "per_class": {
+          "sql_injection": {
+            "tp": 2,
+            "fn": 10,
+            "fp": 0,
+            "tn": 12,
+            "recall": 0.16666666666666666,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 0.2857142857142857
+          },
+          "command_injection": {
+            "tp": 0,
+            "fn": 12,
+            "fp": 0,
+            "tn": 12,
+            "recall": 0.0,
+            "precision": null,
+            "fpr": 0.0,
+            "f1": 0.0
+          },
+          "path_traversal": {
+            "tp": 3,
+            "fn": 9,
+            "fp": 0,
+            "tn": 12,
+            "recall": 0.25,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 0.4
+          }
+        }
+      },
+      "semgrep": {
+        "samples": 72,
+        "valid": 72,
+        "coverage": 1.0,
+        "target_class": {
+          "tp": 36,
+          "fn": 0,
+          "fp": 8,
+          "tn": 28,
+          "recall": 1.0,
+          "precision": 0.8181818181818182,
+          "fpr": 0.2222222222222222,
+          "f1": 0.9
+        },
+        "micro_all_classes": {
+          "tp": 36,
+          "fn": 0,
+          "fp": 8,
+          "tn": 172,
+          "recall": 1.0,
+          "precision": 0.8181818181818182,
+          "fpr": 0.044444444444444446,
+          "f1": 0.9
+        },
+        "per_class": {
+          "sql_injection": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 0,
+            "tn": 12,
+            "recall": 1.0,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 1.0
+          },
+          "command_injection": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 0,
+            "tn": 12,
+            "recall": 1.0,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 1.0
+          },
+          "path_traversal": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 8,
+            "tn": 4,
+            "recall": 1.0,
+            "precision": 0.6,
+            "fpr": 0.6666666666666666,
+            "f1": 0.75
+          }
+        }
+      },
+      "hybrid": {
+        "samples": 72,
+        "valid": 72,
+        "coverage": 1.0,
+        "target_class": {
+          "tp": 36,
+          "fn": 0,
+          "fp": 8,
+          "tn": 28,
+          "recall": 1.0,
+          "precision": 0.8181818181818182,
+          "fpr": 0.2222222222222222,
+          "f1": 0.9
+        },
+        "micro_all_classes": {
+          "tp": 36,
+          "fn": 0,
+          "fp": 8,
+          "tn": 172,
+          "recall": 1.0,
+          "precision": 0.8181818181818182,
+          "fpr": 0.044444444444444446,
+          "f1": 0.9
+        },
+        "per_class": {
+          "sql_injection": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 0,
+            "tn": 12,
+            "recall": 1.0,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 1.0
+          },
+          "command_injection": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 0,
+            "tn": 12,
+            "recall": 1.0,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 1.0
+          },
+          "path_traversal": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 8,
+            "tn": 4,
+            "recall": 1.0,
+            "precision": 0.6,
+            "fpr": 0.6666666666666666,
+            "f1": 0.75
+          }
+        }
+      }
+    },
+    "test": {
+      "model": {
+        "samples": 72,
+        "valid": 72,
+        "coverage": 1.0,
+        "target_class": {
+          "tp": 10,
+          "fn": 26,
+          "fp": 0,
+          "tn": 36,
+          "recall": 0.2777777777777778,
+          "precision": 1.0,
+          "fpr": 0.0,
+          "f1": 0.43478260869565216
+        },
+        "micro_all_classes": {
+          "tp": 10,
+          "fn": 26,
+          "fp": 0,
+          "tn": 180,
+          "recall": 0.2777777777777778,
+          "precision": 1.0,
+          "fpr": 0.0,
+          "f1": 0.43478260869565216
+        },
+        "per_class": {
+          "sql_injection": {
+            "tp": 4,
+            "fn": 8,
+            "fp": 0,
+            "tn": 12,
+            "recall": 0.3333333333333333,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 0.5
+          },
+          "command_injection": {
+            "tp": 0,
+            "fn": 12,
+            "fp": 0,
+            "tn": 12,
+            "recall": 0.0,
+            "precision": null,
+            "fpr": 0.0,
+            "f1": 0.0
+          },
+          "path_traversal": {
+            "tp": 6,
+            "fn": 6,
+            "fp": 0,
+            "tn": 12,
+            "recall": 0.5,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 0.6666666666666666
+          }
+        }
+      },
+      "semgrep": {
+        "samples": 72,
+        "valid": 72,
+        "coverage": 1.0,
+        "target_class": {
+          "tp": 36,
+          "fn": 0,
+          "fp": 4,
+          "tn": 32,
+          "recall": 1.0,
+          "precision": 0.9,
+          "fpr": 0.1111111111111111,
+          "f1": 0.9473684210526315
+        },
+        "micro_all_classes": {
+          "tp": 36,
+          "fn": 0,
+          "fp": 4,
+          "tn": 176,
+          "recall": 1.0,
+          "precision": 0.9,
+          "fpr": 0.022222222222222223,
+          "f1": 0.9473684210526315
+        },
+        "per_class": {
+          "sql_injection": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 0,
+            "tn": 12,
+            "recall": 1.0,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 1.0
+          },
+          "command_injection": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 0,
+            "tn": 12,
+            "recall": 1.0,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 1.0
+          },
+          "path_traversal": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 4,
+            "tn": 8,
+            "recall": 1.0,
+            "precision": 0.75,
+            "fpr": 0.3333333333333333,
+            "f1": 0.8571428571428571
+          }
+        }
+      },
+      "hybrid": {
+        "samples": 72,
+        "valid": 72,
+        "coverage": 1.0,
+        "target_class": {
+          "tp": 36,
+          "fn": 0,
+          "fp": 4,
+          "tn": 32,
+          "recall": 1.0,
+          "precision": 0.9,
+          "fpr": 0.1111111111111111,
+          "f1": 0.9473684210526315
+        },
+        "micro_all_classes": {
+          "tp": 36,
+          "fn": 0,
+          "fp": 4,
+          "tn": 176,
+          "recall": 1.0,
+          "precision": 0.9,
+          "fpr": 0.022222222222222223,
+          "f1": 0.9473684210526315
+        },
+        "per_class": {
+          "sql_injection": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 0,
+            "tn": 12,
+            "recall": 1.0,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 1.0
+          },
+          "command_injection": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 0,
+            "tn": 12,
+            "recall": 1.0,
+            "precision": 1.0,
+            "fpr": 0.0,
+            "f1": 1.0
+          },
+          "path_traversal": {
+            "tp": 12,
+            "fn": 0,
+            "fp": 4,
+            "tn": 8,
+            "recall": 1.0,
+            "precision": 0.75,
+            "fpr": 0.3333333333333333,
+            "f1": 0.8571428571428571
+          }
+        }
+      }
+    }
+  },
+  "robustness": [
+    {
+      "category": "sql_injection",
+      "transformation": "original",
+      "tp": 2,
+      "fn": 1,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.6666666666666666,
+      "precision": 1.0,
+      "fpr": 0.0,
+      "f1": 0.8,
+      "evasion_eligible": 2,
+      "evasion_misses": 0,
+      "conditional_evasion": 0.0
+    },
+    {
+      "category": "sql_injection",
+      "transformation": "renamed",
+      "tp": 0,
+      "fn": 3,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.0,
+      "precision": null,
+      "fpr": 0.0,
+      "f1": 0.0,
+      "evasion_eligible": 2,
+      "evasion_misses": 2,
+      "conditional_evasion": 1.0
+    },
+    {
+      "category": "sql_injection",
+      "transformation": "formatted",
+      "tp": 2,
+      "fn": 1,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.6666666666666666,
+      "precision": 1.0,
+      "fpr": 0.0,
+      "f1": 0.8,
+      "evasion_eligible": 2,
+      "evasion_misses": 0,
+      "conditional_evasion": 0.0
+    },
+    {
+      "category": "sql_injection",
+      "transformation": "helper",
+      "tp": 0,
+      "fn": 3,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.0,
+      "precision": null,
+      "fpr": 0.0,
+      "f1": 0.0,
+      "evasion_eligible": 2,
+      "evasion_misses": 2,
+      "conditional_evasion": 1.0
+    },
+    {
+      "category": "command_injection",
+      "transformation": "original",
+      "tp": 0,
+      "fn": 3,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.0,
+      "precision": null,
+      "fpr": 0.0,
+      "f1": 0.0,
+      "evasion_eligible": 0,
+      "evasion_misses": 0,
+      "conditional_evasion": null
+    },
+    {
+      "category": "command_injection",
+      "transformation": "renamed",
+      "tp": 0,
+      "fn": 3,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.0,
+      "precision": null,
+      "fpr": 0.0,
+      "f1": 0.0,
+      "evasion_eligible": 0,
+      "evasion_misses": 0,
+      "conditional_evasion": null
+    },
+    {
+      "category": "command_injection",
+      "transformation": "formatted",
+      "tp": 0,
+      "fn": 3,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.0,
+      "precision": null,
+      "fpr": 0.0,
+      "f1": 0.0,
+      "evasion_eligible": 0,
+      "evasion_misses": 0,
+      "conditional_evasion": null
+    },
+    {
+      "category": "command_injection",
+      "transformation": "helper",
+      "tp": 0,
+      "fn": 3,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.0,
+      "precision": null,
+      "fpr": 0.0,
+      "f1": 0.0,
+      "evasion_eligible": 0,
+      "evasion_misses": 0,
+      "conditional_evasion": null
+    },
+    {
+      "category": "path_traversal",
+      "transformation": "original",
+      "tp": 2,
+      "fn": 1,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.6666666666666666,
+      "precision": 1.0,
+      "fpr": 0.0,
+      "f1": 0.8,
+      "evasion_eligible": 2,
+      "evasion_misses": 0,
+      "conditional_evasion": 0.0
+    },
+    {
+      "category": "path_traversal",
+      "transformation": "renamed",
+      "tp": 0,
+      "fn": 3,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.0,
+      "precision": null,
+      "fpr": 0.0,
+      "f1": 0.0,
+      "evasion_eligible": 2,
+      "evasion_misses": 2,
+      "conditional_evasion": 1.0
+    },
+    {
+      "category": "path_traversal",
+      "transformation": "formatted",
+      "tp": 2,
+      "fn": 1,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.6666666666666666,
+      "precision": 1.0,
+      "fpr": 0.0,
+      "f1": 0.8,
+      "evasion_eligible": 2,
+      "evasion_misses": 0,
+      "conditional_evasion": 0.0
+    },
+    {
+      "category": "path_traversal",
+      "transformation": "helper",
+      "tp": 2,
+      "fn": 1,
+      "fp": 0,
+      "tn": 3,
+      "recall": 0.6666666666666666,
+      "precision": 1.0,
+      "fpr": 0.0,
+      "f1": 0.8,
+      "evasion_eligible": 2,
+      "evasion_misses": 0,
+      "conditional_evasion": 0.0
+    }
+  ],
+  "acquisition": [
+    {
+      "strategy": "random",
+      "budget": 6,
+      "brier": 0.25471157407407413,
+      "brier_seed_sd": 0.012266129539972385,
+      "failing_families": 2.28,
+      "cells": 4.96
+    },
+    {
+      "strategy": "random",
+      "budget": 12,
+      "brier": 0.2559757653061225,
+      "brier_seed_sd": 0.014543918252923446,
+      "failing_families": 4.19,
+      "cells": 8.11
+    },
+    {
+      "strategy": "random",
+      "budget": 24,
+      "brier": 0.2531473273337113,
+      "brier_seed_sd": 0.015215810113723268,
+      "failing_families": 6.73,
+      "cells": 11.05
+    },
+    {
+      "strategy": "random",
+      "budget": 48,
+      "brier": 0.23502556807445202,
+      "brier_seed_sd": 0.01023608413123139,
+      "failing_families": 8.67,
+      "cells": 11.99
+    },
+    {
+      "strategy": "fixed",
+      "budget": 6,
+      "brier": 0.25759259259259254,
+      "brier_seed_sd": 0.01183570729802243,
+      "failing_families": 2.09,
+      "cells": 6.0
+    },
+    {
+      "strategy": "fixed",
+      "budget": 12,
+      "brier": 0.2637037037037037,
+      "brier_seed_sd": 0.020323552633523853,
+      "failing_families": 4.04,
+      "cells": 12.0
+    },
+    {
+      "strategy": "fixed",
+      "budget": 24,
+      "brier": 0.25395833333333334,
+      "brier_seed_sd": 0.01806088316029953,
+      "failing_families": 6.7,
+      "cells": 12.0
+    },
+    {
+      "strategy": "fixed",
+      "budget": 48,
+      "brier": 0.23414351851851856,
+      "brier_seed_sd": 0.00885513895165081,
+      "failing_families": 8.68,
+      "cells": 12.0
+    },
+    {
+      "strategy": "outcome_only",
+      "budget": 6,
+      "brier": 0.25675925925925924,
+      "brier_seed_sd": 0.014467915260150411,
+      "failing_families": 2.29,
+      "cells": 6.0
+    },
+    {
+      "strategy": "outcome_only",
+      "budget": 12,
+      "brier": 0.2637037037037037,
+      "brier_seed_sd": 0.020323552633523853,
+      "failing_families": 4.04,
+      "cells": 12.0
+    },
+    {
+      "strategy": "outcome_only",
+      "budget": 24,
+      "brier": 0.25395833333333334,
+      "brier_seed_sd": 0.01806088316029953,
+      "failing_families": 6.7,
+      "cells": 12.0
+    },
+    {
+      "strategy": "outcome_only",
+      "budget": 48,
+      "brier": 0.23414351851851856,
+      "brier_seed_sd": 0.00885513895165081,
+      "failing_families": 8.68,
+      "cells": 12.0
+    },
+    {
+      "strategy": "policy_only",
+      "budget": 6,
+      "brier": 0.25675925925925924,
+      "brier_seed_sd": 0.014467915260150411,
+      "failing_families": 2.29,
+      "cells": 6.0
+    },
+    {
+      "strategy": "policy_only",
+      "budget": 12,
+      "brier": 0.2637037037037037,
+      "brier_seed_sd": 0.020323552633523853,
+      "failing_families": 4.04,
+      "cells": 12.0
+    },
+    {
+      "strategy": "policy_only",
+      "budget": 24,
+      "brier": 0.26729028013983375,
+      "brier_seed_sd": 0.018725123642188594,
+      "failing_families": 7.04,
+      "cells": 12.0
+    },
+    {
+      "strategy": "policy_only",
+      "budget": 48,
+      "brier": 0.25584032856198036,
+      "brier_seed_sd": 0.014383041593261427,
+      "failing_families": 8.89,
+      "cells": 12.0
+    },
+    {
+      "strategy": "full",
+      "budget": 6,
+      "brier": 0.25833333333333336,
+      "brier_seed_sd": 0.013802888749998708,
+      "failing_families": 2.62,
+      "cells": 6.0
+    },
+    {
+      "strategy": "full",
+      "budget": 12,
+      "brier": 0.2642592592592593,
+      "brier_seed_sd": 0.019494484273043847,
+      "failing_families": 4.65,
+      "cells": 12.0
+    },
+    {
+      "strategy": "full",
+      "budget": 24,
+      "brier": 0.2679122732426304,
+      "brier_seed_sd": 0.018754060945396497,
+      "failing_families": 7.23,
+      "cells": 12.0
+    },
+    {
+      "strategy": "full",
+      "budget": 48,
+      "brier": 0.25580580357142857,
+      "brier_seed_sd": 0.015380662071294366,
+      "failing_families": 8.88,
+      "cells": 12.0
+    },
+    {
+      "strategy": "no_policy",
+      "budget": 6,
+      "brier": 0.25833333333333336,
+      "brier_seed_sd": 0.013802888749998708,
+      "failing_families": 2.62,
+      "cells": 6.0
+    },
+    {
+      "strategy": "no_policy",
+      "budget": 12,
+      "brier": 0.2642592592592593,
+      "brier_seed_sd": 0.019494484273043847,
+      "failing_families": 4.65,
+      "cells": 12.0
+    },
+    {
+      "strategy": "no_policy",
+      "budget": 24,
+      "brier": 0.2544618055555556,
+      "brier_seed_sd": 0.01838529089708235,
+      "failing_families": 6.91,
+      "cells": 12.0
+    },
+    {
+      "strategy": "no_policy",
+      "budget": 48,
+      "brier": 0.23519744897959186,
+      "brier_seed_sd": 0.009446006926295769,
+      "failing_families": 8.7,
+      "cells": 12.0
+    },
+    {
+      "strategy": "no_boundary",
+      "budget": 6,
+      "brier": 0.25833333333333336,
+      "brier_seed_sd": 0.013802888749998708,
+      "failing_families": 2.62,
+      "cells": 6.0
+    },
+    {
+      "strategy": "no_boundary",
+      "budget": 12,
+      "brier": 0.2642592592592593,
+      "brier_seed_sd": 0.019494484273043847,
+      "failing_families": 4.65,
+      "cells": 12.0
+    },
+    {
+      "strategy": "no_boundary",
+      "budget": 24,
+      "brier": 0.26746761621315196,
+      "brier_seed_sd": 0.018415816536677277,
+      "failing_families": 7.21,
+      "cells": 12.0
+    },
+    {
+      "strategy": "no_boundary",
+      "budget": 48,
+      "brier": 0.2540301788076342,
+      "brier_seed_sd": 0.017021161008187537,
+      "failing_families": 8.86,
+      "cells": 12.0
+    },
+    {
+      "strategy": "no_novelty",
+      "budget": 6,
+      "brier": 0.25675925925925924,
+      "brier_seed_sd": 0.014467915260150411,
+      "failing_families": 2.29,
+      "cells": 6.0
+    },
+    {
+      "strategy": "no_novelty",
+      "budget": 12,
+      "brier": 0.2637037037037037,
+      "brier_seed_sd": 0.020323552633523853,
+      "failing_families": 4.04,
+      "cells": 12.0
+    },
+    {
+      "strategy": "no_novelty",
+      "budget": 24,
+      "brier": 0.2670708604969766,
+      "brier_seed_sd": 0.018707643756488365,
+      "failing_families": 6.95,
+      "cells": 12.0
+    },
+    {
+      "strategy": "no_novelty",
+      "budget": 48,
+      "brier": 0.2558121905706727,
+      "brier_seed_sd": 0.01441535661098679,
+      "failing_families": 8.89,
+      "cells": 12.0
+    }
+  ],
+  "full_minus_fixed_brier_B24": {
+    "mean": 0.013953939909297029,
+    "ci95": [
+      0.0005281927122700777,
+      0.02863743937389766
+    ],
+    "clusters": 9,
+    "method": "paired family cluster bootstrap; selection seeds averaged within family"
+  },
+  "hybrid_minus_model_recall": {
+    "mean": 0.7222222222222222,
+    "ci95": [
+      0.5,
+      0.9166666666666666
+    ],
+    "clusters": 9,
+    "method": "paired family cluster bootstrap; selection seeds averaged within family"
+  },
+  "hybrid_minus_model_fpr": {
+    "mean": 0.1111111111111111,
+    "ci95": [
+      0.0,
+      0.3333333333333333
+    ],
+    "clusters": 9,
+    "method": "paired family cluster bootstrap; selection seeds averaged within family"
+  },
+  "cost": {
+    "model_calls": 144,
+    "model_seconds": 217.18592287786305,
+    "model_p50_s": 1.5015679164789617,
+    "model_p95_s": 1.7642838392988778,
+    "input_tokens": 27370,
+    "output_tokens": 4464,
+    "static_batch_seconds": 3.8796020000008866,
+    "hybrid_sequential_estimated_seconds": 221.06552487786394,
+    "acquisition_replay_seconds": 12.225538541912101
+  },
+  "limitations": [
+    "Single small quantised model, handcrafted templates, no external annotation.",
+    "Selection seeds are not independent scientific replicates.",
+    "Held-out family bootstrap only nine clusters, conditional on fixed development pool.",
+    "Model frozen; source text reviewed, no tool-using agent or malicious execution.",
+    "Synthetic family variants may share structural shortcuts; no real-project generalisation.",
+    "Hybrid cost is sequential estimate, not independently timed pipeline."
+  ]
+}

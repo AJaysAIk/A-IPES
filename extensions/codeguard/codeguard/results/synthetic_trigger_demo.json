@@ -1,0 +1,44 @@
+{
+  "disclosure": "Programmed synthetic reviewer. NOT a poisoned/backdoored LLM result.",
+  "results": [
+    {
+      "condition": "absent",
+      "clean": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      },
+      "synthetic_compromised": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "condition": "neutral",
+      "clean": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      },
+      "synthetic_compromised": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    },
+    {
+      "condition": "trigger",
+      "clean": {
+        "sql_injection": true,
+        "command_injection": false,
+        "path_traversal": false
+      },
+      "synthetic_compromised": {
+        "sql_injection": false,
+        "command_injection": false,
+        "path_traversal": false
+      }
+    }
+  ]
+}
