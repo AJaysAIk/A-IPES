@@ -51,3 +51,11 @@ def test_historical_file_without_mode_remains_valid():
 
 def test_unknown_mode_rejected_before_running():
     with pytest.raises(ValueError): run_benchmark_v2(benchmark_seeds=(0,), budgets=(1,), prior_mode="unknown")
+
+
+def test_fingerprint_changes_when_hypothesis_removed():
+    tools, _ = generate_benchmark_v2(0)
+    h = strategy_priors(tools[0])["policy_active"]
+
+    assert len(h) > 1
+    assert prior_fingerprint(h) != prior_fingerprint(h[:-1])
