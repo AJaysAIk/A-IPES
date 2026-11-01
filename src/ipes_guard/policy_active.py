@@ -55,6 +55,14 @@ class TransitionHypothesis:
 class VersionSpaceEffectModel:
     tool_name: str
     hypotheses: tuple[TransitionHypothesis, ...]
+    consistent_hypothesis_count: int | None = None
+    fallback_used: bool = False
+
+    @property
+    def identification_status(self) -> str:
+        count = self.consistent_hypothesis_count
+        count = len(self.hypotheses) if count is None else count
+        return "inconsistent" if count == 0 else ("consistent" if count == 1 else "ambiguous")
 
     def predict(self, state: PolicyState) -> PolicyState:
         predictions = [h.predict_tuple(state) for h in self.hypotheses]
@@ -89,6 +97,7 @@ class ProbeSelectionResult:
     model: VersionSpaceEffectModel
     posterior_sizes: tuple[int, ...]
     acquisition_scores: tuple[float, ...]
+    diagnostics: tuple[dict, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -214,10 +223,11 @@ def fit_version_space_model(
 ) -> VersionSpaceEffectModel:
     library = tuple(hypotheses or build_hypothesis_library())
     posterior = filter_hypotheses(library, observe(tool, states))
-    # A misspecified prior must fail safely rather than crash the benchmark.
+    consistent_count = len(posterior)
+    # Historical compatibility prediction; this is not a safety guarantee.
     if not posterior:
         posterior = (TransitionHypothesis(None, 0.0, Trigger(())),)
-    return VersionSpaceEffectModel(tool.name, posterior)
+    return VersionSpaceEffectModel(tool.name, posterior, consistent_count, consistent_count == 0)
 
 
 def _state_policy_unsafe_tuple(before: PolicyState, after: tuple[float, ...]) -> bool:
@@ -293,6 +303,9 @@ def select_policy_active_probes(
     rng = np.random.default_rng(random_state)
     library = build_hypothesis_library()
     posterior = library
+    diagnostic_posterior = library
+    diagnostics: list[dict] = []
+    fallback_used = False
     selected: list[PolicyState] = []
     posterior_sizes: list[int] = []
     scores: list[float] = []
@@ -313,14 +326,35 @@ def select_policy_active_probes(
         score, _, chosen = max(candidate_scores, key=lambda item: (item[0], item[1]))
         selected.append(chosen)
         scores.append(float(score))
-        posterior = filter_hypotheses(posterior, observe(tool, [chosen]))
+        observation = observe(tool, [chosen])
+        before_count = len(diagnostic_posterior)
+        diagnostic_posterior = filter_hypotheses(diagnostic_posterior, observation)
+        components = {
+            "outcome_information": _entropy([h.predict_tuple(chosen) for h in posterior]),
+            "policy_information": _entropy([_state_policy_unsafe_tuple(chosen, h.predict_tuple(chosen)) for h in posterior]),
+            "boundary": _boundary_score(chosen),
+            "novelty": _novelty_score(chosen, selected[:-1]),
+        }
+        posterior = filter_hypotheses(posterior, observation)
+        step_fallback = not posterior
+        fallback_used = fallback_used or step_fallback
         if not posterior:
             posterior = (TransitionHypothesis(None, 0.0, Trigger(())),)
+        diagnostics.append({
+            "probe_index": len(selected), "probe_seed": random_state,
+            "budget": budget, "before": chosen.as_dict(),
+            "after": observation[0][1].as_dict(), "acquisition_score": float(score),
+            "acquisition_components": components,
+            "consistent_count_before": before_count,
+            "consistent_count_after": len(diagnostic_posterior),
+            "compatibility_fallback_used": step_fallback,
+        })
         posterior_sizes.append(len(posterior))
 
     return ProbeSelectionResult(
         tuple(selected),
-        VersionSpaceEffectModel(tool.name, tuple(posterior)),
+        VersionSpaceEffectModel(tool.name, tuple(posterior), len(diagnostic_posterior), fallback_used),
         tuple(posterior_sizes),
         tuple(scores),
+        tuple(diagnostics),
     )

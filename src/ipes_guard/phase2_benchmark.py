@@ -290,6 +290,9 @@ def _evaluate_tool_model(tool: ToolSpec, fitted: Phase2Model) -> list[dict]:
                     np.mean(np.abs(actual_after.to_vector() - predicted_after.to_vector()))
                 ),
                 "posterior_size": fitted.posterior_size,
+                "consistent_hypothesis_count": fitted.model.consistent_hypothesis_count,
+                "identification_status": fitted.model.identification_status,
+                "compatibility_fallback_used": fitted.model.fallback_used,
             }
         )
     return rows
@@ -306,15 +309,20 @@ def _prefix_models(
     """Filter one shared version space incrementally for all budget prefixes."""
     wanted = set(int(budget) for budget in budgets)
     posterior = tuple(initial_hypotheses or build_hypothesis_library())
+    diagnostic_posterior = posterior
+    fallback_used = False
     models: dict[int, VersionSpaceEffectModel] = {}
     for index, state in enumerate(ordering, start=1):
-        posterior = filter_hypotheses(posterior, observe(tool, [state]))
+        observation = observe(tool, [state])
+        diagnostic_posterior = filter_hypotheses(diagnostic_posterior, observation)
+        posterior = filter_hypotheses(posterior, observation)
         if not posterior:
-            # Conservative misspecification fallback.
+            # Preserve historical predictions but expose prior inconsistency.
+            fallback_used = True
             model = fit_version_space_model(tool, ordering[:index])
             posterior = model.hypotheses
         if index in wanted:
-            models[index] = VersionSpaceEffectModel(tool.name, tuple(posterior))
+            models[index] = VersionSpaceEffectModel(tool.name, tuple(posterior), len(diagnostic_posterior), fallback_used)
         if wanted.issubset(models):
             break
     return models

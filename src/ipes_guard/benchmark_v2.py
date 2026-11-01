@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import json
+import hashlib
+
 from dataclasses import asdict, dataclass
 from typing import Callable, Mapping, Sequence
 
@@ -164,11 +167,31 @@ def _summarise(group: pd.DataFrame) -> pd.Series:
     })
 
 
+def prior_fingerprint(hypotheses) -> str:
+    canonical = sorted(json.dumps(asdict(h), sort_keys=True) for h in hypotheses)
+    return hashlib.sha256(json.dumps(canonical).encode()).hexdigest()
+
+
+def strategy_priors(tool, prior_mode="legacy"):
+    if prior_mode not in {"legacy", "matched_full"}:
+        raise ValueError("Unknown prior mode")
+    full = build_hypothesis_library()
+    return {name: (_passive_prior(tool) if name == "passive_characterisation" and prior_mode == "legacy" else full)
+            for name in ("single_default", "passive_characterisation", "random", "fixed_boundary", "policy_active")}
+
+
 def run_benchmark_v2(
     benchmark_seeds: Sequence[int] = tuple(range(30)),
     budgets: Sequence[int] = (1, 2, 3, 5),
     probe_seed: int = 0,
+    prior_mode: str = "legacy",
 ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    if prior_mode not in {"legacy", "matched_full"}:
+        raise ValueError("Unknown prior mode")
+    if not benchmark_seeds or len(set(benchmark_seeds)) != len(benchmark_seeds):
+        raise ValueError("World seeds must be nonempty and unique")
+    if not budgets:
+        raise ValueError("Budgets must be nonempty")
     strategies = ("single_default", "passive_characterisation", "random", "fixed_boundary", "policy_active")
     budgets = tuple(sorted(set(int(x) for x in budgets)))
     max_budget = max(budgets)
@@ -182,20 +205,15 @@ def run_benchmark_v2(
         manifests.append(asdict(manifest))
         for tool_index, tool in enumerate(tools):
             random_seed = int(benchmark_seed) * 100_003 + int(probe_seed) * 101 + tool_index
+            active_result = select_policy_active_probes(tool, max_budget, pool, random_seed)
             orderings = {
                 "single_default": [PolicyState()],
                 "passive_characterisation": _passive_states(pool, max_budget),
                 "random": _random_states(pool, max_budget, random_seed),
                 "fixed_boundary": _fixed_states(pool, max_budget),
-                "policy_active": list(select_policy_active_probes(tool, max_budget, pool, random_seed).selected_states),
+                "policy_active": list(active_result.selected_states),
             }
-            priors = {
-                "single_default": build_hypothesis_library(),
-                "passive_characterisation": _passive_prior(tool),
-                "random": build_hypothesis_library(),
-                "fixed_boundary": build_hypothesis_library(),
-                "policy_active": build_hypothesis_library(),
-            }
+            priors = strategy_priors(tool, prior_mode)
             prefixes = {
                 strategy: _prefix_models(
                     tool,
@@ -209,6 +227,7 @@ def run_benchmark_v2(
                 for strategy in strategies:
                     effective_budget = 1 if strategy == "single_default" else budget
                     model = prefixes[strategy][effective_budget]
+                    fingerprint = prior_fingerprint(priors[strategy])
                     initial_count = len(priors[strategy])
                     final_count = len(model.hypotheses)
                     reduction = 1.0 - final_count / max(1, initial_count)
@@ -222,12 +241,15 @@ def run_benchmark_v2(
                             "strategy": strategy,
                             "tool_name": tool.name,
                             "selection_order": order,
+                            **({"diagnostic_trace": json.dumps(active_result.diagnostics[order - 1], sort_keys=True)} if strategy == "policy_active" else {}),
                             **state.as_dict(),
                         })
                     for row in _evaluate_tool_model(tool, fitted):
                         row.update({
                             "benchmark_seed": benchmark_seed,
                             "probe_seed": random_seed,
+                            "prior_mode": prior_mode,
+                            "prior_fingerprint": fingerprint,
                             "initial_hypothesis_count": initial_count,
                             "posterior_reduction_ratio": reduction,
                             "information_gain_bits": information_gain,
@@ -257,4 +279,6 @@ def run_benchmark_v2(
         })
         .reset_index()
     )
+    for frame in (summary, per_benchmark, selected, manifest_df):
+        frame["prior_mode"] = prior_mode
     return summary, per_benchmark, raw, selected, manifest_df
