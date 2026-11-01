@@ -80,7 +80,11 @@ The `ipes-guard` package name and earlier IPES terminology are retained for comp
 
 ## Validation
 
-All **17 tests pass** in the publication environment. A seed-0 reproduction with all four budgets matches the archived metrics for all 20 strategy/budget combinations. See [validation details](docs/VALIDATION.md) and [tested dependencies](requirements-tested.txt). The complete 30-world experiments were not rerun for this release.
+[Core research CI](https://github.com/AJaysAIk/A-IPES/actions/workflows/research.yml) checks package installation, dependency health, scientific imports, unit tests, and CLI integration. Dependency snapshots are retained with each run. CI smoke runs use one development world and are software checks, not new performance evidence.
+
+See [identification diagnostics and matched priors](docs/IDENTIFICATION_AND_MATCHED_PRIORS.md) for the equal-starting-information comparison. The headline table above remains the archived **legacy-prior** experiment. New matched-prior runs do not replace those results. See the [development roadmap](docs/DEVELOPMENT_ROADMAP.md) for scoped next steps.
+
+The original publication environment passed **17 tests**; this is a historical result. The current core research workflow runs the expanded suite on Python 3.10 and 3.12, including benchmark-to-analysis integration checks in both prior modes. A seed-0 reproduction with all four budgets matches the archived metrics for all 20 strategy/budget combinations. See [validation details](docs/VALIDATION.md) and [tested dependencies](requirements-tested.txt). The complete 30-world experiments were not rerun for this release.
 
 ## Research status and citation
 
