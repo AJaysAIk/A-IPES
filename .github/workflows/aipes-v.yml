@@ -1,0 +1,32 @@
+name: A-IPES-V extension
+on:
+  push:
+    paths:
+      - 'extensions/aipes_v/**'
+      - 'src/ipes_guard/**'
+      - '.github/workflows/aipes-v.yml'
+  pull_request:
+    paths:
+      - 'extensions/aipes_v/**'
+      - 'src/ipes_guard/**'
+      - '.github/workflows/aipes-v.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e '.[dev]'
+      - run: python -m pip install -e extensions/aipes_v
+      - run: ruff check extensions/aipes_v/src extensions/aipes_v/tests extensions/aipes_v/scripts
+      - run: python -m pytest -q extensions/aipes_v/tests
+      - run: python extensions/aipes_v/scripts/run_demo.py --budgets 1,2 --seeds 0,1
