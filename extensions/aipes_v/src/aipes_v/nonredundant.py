@@ -156,7 +156,7 @@ def run_nonredundant_pilot(
 ) -> list[dict]:
     """Paired v0.2 pilot with one max-budget trajectory per strategy."""
 
-    budgets = tuple(sorted(set(int(b) for b in budgets)))
+    budgets = tuple(sorted({int(b) for b in budgets}))
     if not budgets or min(budgets) < 1:
         raise ValueError("budgets must be positive")
     pool = candidate_states()
