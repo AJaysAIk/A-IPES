@@ -128,37 +128,48 @@ def run_pilot(
 ) -> list[dict]:
     """Run a deterministic synthetic pilot and return raw per-tool rows."""
 
+    budgets = tuple(sorted({int(budget) for budget in budgets}))
+    if not budgets or min(budgets) < 1:
+        raise ValueError("budgets must be positive")
+
     pool = candidate_states()
+    max_budget = max(budgets)
+    if max_budget > len(pool):
+        raise ValueError("budget outside candidate-pool range")
+
     specs = default_specifications()
     rows: list[dict] = []
 
     for seed in seeds:
         for tool_index, tool in enumerate(benchmark_tools()):
+            spec_order = select_specification_aware_probes(
+                tool,
+                max_budget,
+                pool,
+                random_state=int(seed),
+                specifications=specs,
+            ).selected_states
+            policy_order = select_policy_active_probes(
+                tool,
+                max_budget,
+                pool,
+                random_state=int(seed),
+            ).selected_states
+            rng = np.random.default_rng(int(seed) * 1009 + tool_index * 101)
+            random_order = tuple(
+                pool[int(i)]
+                for i in rng.choice(len(pool), size=max_budget, replace=False)
+            )
+
+            orders = {
+                "specification_active": spec_order,
+                "policy_active": policy_order,
+                "random": random_order,
+            }
             for budget in budgets:
-                if budget < 1 or budget > len(pool):
-                    raise ValueError("budget outside candidate-pool range")
-
-                spec_selected = select_specification_aware_probes(
-                    tool,
-                    budget,
-                    pool,
-                    random_state=seed,
-                    specifications=specs,
-                ).selected_states
-                policy_selected = select_policy_active_probes(
-                    tool, budget, pool, random_state=seed
-                ).selected_states
-                rng = np.random.default_rng(seed * 1009 + tool_index * 101 + budget)
-                random_indices = rng.choice(len(pool), size=budget, replace=False)
-                random_selected = tuple(pool[int(i)] for i in random_indices)
-
-                for strategy, selected in (
-                    ("specification_active", spec_selected),
-                    ("policy_active", policy_selected),
-                    ("random", random_selected),
-                ):
-                    row = evaluate_strategy(tool, selected, pool, specs)
-                    row.update(strategy=strategy, budget=int(budget), seed=int(seed))
+                for strategy, order in orders.items():
+                    row = evaluate_strategy(tool, order[:budget], pool, specs)
+                    row.update(strategy=strategy, budget=budget, seed=int(seed))
                     rows.append(row)
 
     return rows
