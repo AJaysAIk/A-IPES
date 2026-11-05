@@ -1,7 +1,7 @@
 from __future__ import annotations
 
+from collections.abc import Sequence
 from itertools import product
-from typing import Sequence
 
 import numpy as np
 
@@ -43,11 +43,46 @@ def _runaway_resource(state: PolicyState, _args) -> PolicyState:
 
 def benchmark_tools() -> tuple[ToolSpec, ...]:
     return (
-        ToolSpec("safe_approval", "Approval with verified-evidence prerequisite.", (), "safe", "aipes_v", _safe_approval),
-        ToolSpec("unsafe_approval", "Approval without verified-evidence prerequisite.", (), "unsafe", "aipes_v", _unsafe_approval),
-        ToolSpec("unsafe_purchase", "Purchase authorisation without supplier prerequisite.", (), "unsafe", "aipes_v", _unsafe_purchase),
-        ToolSpec("unsafe_publication", "Publication without verified-evidence prerequisite.", (), "unsafe", "aipes_v", _unsafe_publication),
-        ToolSpec("runaway_resource", "Resource use can exceed the configured safety budget.", (), "unsafe", "aipes_v", _runaway_resource),
+        ToolSpec(
+            "safe_approval",
+            "Approval with verified-evidence prerequisite.",
+            (),
+            "safe",
+            "aipes_v",
+            _safe_approval,
+        ),
+        ToolSpec(
+            "unsafe_approval",
+            "Approval without verified-evidence prerequisite.",
+            (),
+            "unsafe",
+            "aipes_v",
+            _unsafe_approval,
+        ),
+        ToolSpec(
+            "unsafe_purchase",
+            "Purchase authorisation without supplier prerequisite.",
+            (),
+            "unsafe",
+            "aipes_v",
+            _unsafe_purchase,
+        ),
+        ToolSpec(
+            "unsafe_publication",
+            "Publication without verified-evidence prerequisite.",
+            (),
+            "unsafe",
+            "aipes_v",
+            _unsafe_publication,
+        ),
+        ToolSpec(
+            "runaway_resource",
+            "Resource use can exceed the configured safety budget.",
+            (),
+            "unsafe",
+            "aipes_v",
+            _runaway_resource,
+        ),
     )
 
 
@@ -79,7 +114,9 @@ def evaluate_strategy(
         "tool": tool.name,
         "available_specifications": denominator,
         "discovered_specifications": len(discovered),
-        "specification_coverage": 1.0 if denominator == 0 else len(discovered) / denominator,
+        "specification_coverage": 1.0
+        if denominator == 0
+        else len(discovered) / denominator,
         "violation_detected": bool(discovered),
         "first_violation_probe": first,
     }
@@ -102,7 +139,11 @@ def run_pilot(
                     raise ValueError("budget outside candidate-pool range")
 
                 spec_selected = select_specification_aware_probes(
-                    tool, budget, pool, random_state=seed, specifications=specs
+                    tool,
+                    budget,
+                    pool,
+                    random_state=seed,
+                    specifications=specs,
                 ).selected_states
                 policy_selected = select_policy_active_probes(
                     tool, budget, pool, random_state=seed
