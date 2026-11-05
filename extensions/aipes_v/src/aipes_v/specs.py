@@ -5,7 +5,6 @@ from dataclasses import dataclass
 
 from ipes_guard.domain import PolicyState
 
-
 TransitionPredicate = Callable[[PolicyState, PolicyState], bool]
 
 

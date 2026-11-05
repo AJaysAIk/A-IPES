@@ -85,31 +85,37 @@ def _resource_tool(
     )
 
 
+def _published(state: PolicyState) -> bool:
+    return bool(state.report_published)
+
+
+def _authorised(state: PolicyState) -> bool:
+    return bool(state.purchase_authorised)
+
+
 def verification_worlds() -> tuple[VerificationWorld, ...]:
-    published = lambda state: bool(state.report_published)
-    authorised = lambda state: bool(state.purchase_authorised)
     return (
         VerificationWorld(
             "publication_safe",
-            _resource_tool("publication_bounded", published, 1.0),
+            _resource_tool("publication_bounded", _published, 1.0),
             post_publication_specification(),
             False,
         ),
         VerificationWorld(
             "publication_burst",
-            _resource_tool("publication_burst", published, 2.0),
+            _resource_tool("publication_burst", _published, 2.0),
             post_publication_specification(),
             True,
         ),
         VerificationWorld(
             "authorisation_safe",
-            _resource_tool("authorisation_bounded", authorised, 1.0),
+            _resource_tool("authorisation_bounded", _authorised, 1.0),
             post_authorisation_specification(),
             False,
         ),
         VerificationWorld(
             "authorisation_burst",
-            _resource_tool("authorisation_burst", authorised, 2.0),
+            _resource_tool("authorisation_burst", _authorised, 2.0),
             post_authorisation_specification(),
             True,
         ),
