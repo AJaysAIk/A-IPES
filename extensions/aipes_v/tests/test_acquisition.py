@@ -1,11 +1,10 @@
-from ipes_guard.domain import PolicyState
-from ipes_guard.policy_active import TransitionHypothesis, Trigger
-from ipes_guard.tooling import ToolSpec
-
 from aipes_v.acquisition import (
     select_specification_aware_probes,
     specification_information_score,
 )
+from ipes_guard.domain import PolicyState
+from ipes_guard.policy_active import TransitionHypothesis, Trigger
+from ipes_guard.tooling import ToolSpec
 
 
 def test_specification_information_is_positive_when_hypotheses_disagree_on_safety():
