@@ -31,3 +31,4 @@ jobs:
       - run: python -m pytest -q extensions/aipes_v/tests
       - run: python extensions/aipes_v/scripts/run_demo.py --budgets 1,2 --seeds 0
       - run: python extensions/aipes_v/scripts/run_nonredundant_demo.py --budgets 1,2 --seeds 0,1,2,3,4,5,6,7,8,9
+      - run: python extensions/aipes_v/scripts/run_weight_sensitivity.py --budgets 1,2 --seeds 0,1,2,3,4,5,6,7,8,9
