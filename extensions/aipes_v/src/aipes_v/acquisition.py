@@ -1,16 +1,16 @@
 from __future__ import annotations
 
 from collections import Counter
+from collections.abc import Sequence
 from dataclasses import dataclass
 from math import log2
-from typing import Sequence
 
 import numpy as np
 
 from ipes_guard.domain import PolicyState
 from ipes_guard.policy_active import (
-    AcquisitionWeights,
     FULL_ACQUISITION_WEIGHTS,
+    AcquisitionWeights,
     TransitionHypothesis,
     Trigger,
     VersionSpaceEffectModel,
@@ -21,7 +21,12 @@ from ipes_guard.policy_active import (
 )
 from ipes_guard.tooling import ToolSpec
 
-from .specs import SafetySpecification, default_specifications, violation_signature, violated_names
+from .specs import (
+    SafetySpecification,
+    default_specifications,
+    violated_names,
+    violation_signature,
+)
 
 
 @dataclass(frozen=True)
