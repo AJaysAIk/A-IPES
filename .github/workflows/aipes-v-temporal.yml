@@ -1,0 +1,31 @@
+name: A-IPES-V temporal reproducibility
+on:
+  push:
+    paths: ['extensions/aipes_v/**', '.github/workflows/aipes-v-temporal.yml']
+  pull_request:
+    paths: ['extensions/aipes_v/**', '.github/workflows/aipes-v-temporal.yml']
+permissions:
+  contents: read
+jobs:
+  temporal:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e '.[dev]' -e extensions/aipes_v
+      - run: ruff check extensions/aipes_v/src extensions/aipes_v/tests extensions/aipes_v/scripts
+      - run: python -m pytest -q extensions/aipes_v/tests/test_temporal.py
+      - run: python extensions/aipes_v/scripts/run_temporal_demo.py --output-dir /tmp/v05
+      - name: Compare all measured rows and query audits with committed evidence
+        run: |
+          cmp /tmp/v05/rows.csv extensions/aipes_v/results/v05/rows.csv
+          cmp /tmp/v05/traces.jsonl extensions/aipes_v/results/v05/traces.jsonl
+      - uses: actions/upload-artifact@v4
+        with:
+          name: temporal-v05-python-${{ matrix.python-version }}
+          path: /tmp/v05/
