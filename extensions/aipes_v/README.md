@@ -65,3 +65,13 @@ Natural next steps are temporal specifications, stochastic transition models, co
 A-IPES-V keeps the dissertation's central idea, adaptive evidence acquisition under a fixed intervention budget, but changes the acquisition target from policy identification alone to policy identification plus explicit safety-property evidence.
 
 That makes the extension a bridge from empirical runtime characterisation toward specification-driven assurance while keeping the scientific claims narrow and testable.
+
+## v0.5 bounded temporal experiment
+
+See [frozen protocol](V05_PROTOCOL.md) and [measured findings](V05_RESULTS.md).
+The finite-trace adapter tests grant/revoke/use histories against an independent
+monitor, response-information acquisition, random probing, and a finite-model
+counterexample-guided baseline. Saved rows and full query audits are under
+`results/v05/`. Specification weighting showed no incremental detection advantage
+over response entropy in this experiment. This is not the unchanged v0.4 selector
+or a claim of general temporal verification.
