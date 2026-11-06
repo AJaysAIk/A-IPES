@@ -65,3 +65,13 @@ strategy. Only one authorization/revocation property and length-four traces are
 tested. A useful next protocol would test model misspecification and longer
 histories with a fixed compute/call budget and randomized CEG model ordering;
 those are proposed future experiments, not measured findings here.
+
+## Completed CI reproduction
+
+At implementation commit `1fbfefbfb6ab7735c3ca2bcb45bbf8c00fb0659d`,
+[Actions run 42248704961](https://github.com/AJaysAIk/A-IPES/actions/runs/42248704961)
+passed on both Python 3.11 and 3.12: lint, nine temporal tests, the full frozen
+benchmark, byte comparison of every saved row and query audit, and artifact
+upload. This verifies reproducibility of v0.5 evidence on those two environments.
+The broader extension workflow has a separate status and is not implied by this
+statement. The complete 32-test extension suite also passed locally.

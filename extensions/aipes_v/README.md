@@ -75,3 +75,7 @@ counterexample-guided baseline. Saved rows and full query audits are under
 `results/v05/`. Specification weighting showed no incremental detection advantage
 over response entropy in this experiment. This is not the unchanged v0.4 selector
 or a claim of general temporal verification.
+
+The [verified v0.4 findings](V04_RESULTS.md) include CI provenance and a matching
+local raw-row reproduction. First-probe misses are confined to the conjunction
+context; the three single-context families each detect 20/20 at budget 1.
