@@ -1,0 +1,17 @@
+strategy,budget,unsafe_detections,unsafe_cases,out_of_class_flags,out_of_class_cases,safe_alarms,safe_mismatches,safe_cases,false_mismatches,in_class_cases,total_candidate_checks,total_logical_response_lookups,total_logical_violation_lookups,total_refinement_lookups
+counterexample_guided,1,44,160,48,200,0,22,80,0,40,756,0,756,1920
+counterexample_guided,2,83,160,112,200,0,58,80,0,40,3489,0,3441,2436
+counterexample_guided,4,110,160,166,200,0,80,80,0,40,9380,0,9057,2787
+counterexample_guided,8,122,160,178,200,0,80,80,0,40,29631,0,28625,3213
+random,1,26,160,14,200,0,8,80,0,40,240,0,0,1920
+random,2,34,160,18,200,0,10,80,0,40,480,0,0,2680
+random,4,56,160,50,200,0,30,80,0,40,960,0,0,3638
+random,8,80,160,88,200,0,46,80,0,40,1920,0,0,4616
+specification_active,1,50,160,0,200,0,0,80,0,40,983040,7864320,7864320,1920
+specification_active,2,54,160,14,200,0,8,80,0,40,1965840,8847120,8847120,2160
+specification_active,4,60,160,34,200,0,18,80,0,40,3799762,10681010,10681010,2608
+specification_active,8,90,160,92,200,0,44,80,0,40,6712528,13593528,13593528,3320
+transition_active,1,50,160,0,200,0,0,80,0,40,983040,7864320,0,1920
+transition_active,2,54,160,14,200,0,8,80,0,40,1965840,8847120,0,2160
+transition_active,4,60,160,34,200,0,18,80,0,40,3799762,10681010,0,2608
+transition_active,8,90,160,92,200,0,44,80,0,40,6712528,13593528,0,3320

@@ -79,3 +79,12 @@ or a claim of general temporal verification.
 The [verified v0.4 findings](V04_RESULTS.md) include CI provenance and a matching
 local raw-row reproduction. First-probe misses are confined to the conjunction
 context; the three single-context families each detect 20/20 at budget 1.
+
+## v0.6 model inadequacy
+
+See [frozen protocol](V06_PROTOCOL.md) and [measured findings](V06_RESULTS.md).
+The six-action lease-expiry benchmark separates observed violations from model
+mismatch, randomizes CEG model order, and preserves empty posteriors as an explicit
+inadequacy signal. Specification weighting again adds no detection benefit in
+this benchmark. A nonempty posterior is not a model-adequacy or safety guarantee.
+All query audits, finite oracle labels and aggregate counts are in `results/v06/`.

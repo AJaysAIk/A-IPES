@@ -1,0 +1,33 @@
+name: A-IPES-V model inadequacy reproducibility
+on:
+  push:
+    paths: ['extensions/aipes_v/**', '.github/workflows/aipes-v-misspecification.yml']
+  pull_request:
+    paths: ['extensions/aipes_v/**', '.github/workflows/aipes-v-misspecification.yml']
+permissions:
+  contents: read
+jobs:
+  misspecification:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e '.[dev]' -e extensions/aipes_v
+      - run: ruff check extensions/aipes_v/src extensions/aipes_v/tests extensions/aipes_v/scripts
+      - run: python -m pytest -q extensions/aipes_v/tests/test_misspecification.py
+      - run: python extensions/aipes_v/scripts/run_misspecification.py --output-dir /tmp/v06
+      - name: Compare measured rows, query audits and exhaustive world labels
+        run: |
+          cmp /tmp/v06/rows.csv extensions/aipes_v/results/v06/rows.csv
+          cmp /tmp/v06/traces.jsonl extensions/aipes_v/results/v06/traces.jsonl
+          cmp /tmp/v06/oracle.json extensions/aipes_v/results/v06/oracle.json
+          cmp /tmp/v06/summary.csv extensions/aipes_v/results/v06/summary.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: model-inadequacy-v06-python-${{ matrix.python-version }}
+          path: /tmp/v06/
