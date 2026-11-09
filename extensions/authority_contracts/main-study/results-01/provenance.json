@@ -1,0 +1,16 @@
+{
+  "aalpy": "2.0.0",
+  "executed_calls": 800000,
+  "prefix_rows": 1200,
+  "protocol_freeze": "local SHA256 before selector outcomes; not external preregistration",
+  "protocol_sha256": "d0cf559a46c24dcf09f65fa64971fbef43bf9cb9628885e8984551639729d9e6",
+  "python": "3.14.3",
+  "runs": 400,
+  "scope": "prospectively reserved synthetic evaluation, not independently sampled systems",
+  "source_sha256": {
+    "main-study/PROTOCOL.md": "d0cf559a46c24dcf09f65fa64971fbef43bf9cb9628885e8984551639729d9e6",
+    "main-study/run_study.py": "fa09d87e804a2f72027d43e5e7e6d0c5ce3b12eb4ff3ef1d58d89669de3010fb",
+    "main-study/services.py": "279bbfb7c192f3ba0bf0d67c157e1749becc99c19e3cbe01a5901e1804a236bd",
+    "pilot.py": "f8bebfe9b6518cc974d0099a1ecd0588eabe218a93ec34c6389159cf6ff02153"
+  }
+}

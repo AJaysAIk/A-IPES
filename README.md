@@ -87,3 +87,10 @@ All **17 tests pass** in the publication environment. A seed-0 reproduction with
 This is an MSc dissertation research prototype, not a peer-reviewed publication or a production security system. See [CITATION.cff](CITATION.cff) for citation metadata and [publication provenance](docs/PUBLICATION_PROVENANCE.md) for the source snapshot and public-copy changes.
 
 Released under the [MIT License](LICENSE). See [RIGHTS.md](RIGHTS.md) for third-party rights and citation guidance. Security reporting guidance is in [SECURITY.md](SECURITY.md).
+
+## Authority-contract evidence follow-up
+
+The [authority-contract study](extensions/authority_contracts/README.md) publishes
+400 synthetic runs, 800,000 audited actions, a five-page report and one-command
+reproduction. A fixed contract suite saturates these planted faults; the study
+retains that simple-baseline result and does not claim a new verification method.

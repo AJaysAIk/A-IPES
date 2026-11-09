@@ -1,0 +1,3 @@
+*.pdf binary
+*.gz binary
+*.csv -text whitespace=cr-at-eol

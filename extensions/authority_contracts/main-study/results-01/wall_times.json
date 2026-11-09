@@ -1,0 +1,2802 @@
+[
+  {
+    "fixture": "correct",
+    "seed": 0,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.007099041999936162,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 0,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.00652112500029034,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 0,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005766084000242699,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 0,
+    "strategy": "random",
+    "wall_seconds": 0.005812459000480885,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 1,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006557374999829335,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 1,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006151417000182846,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 1,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005711541999517067,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 1,
+    "strategy": "random",
+    "wall_seconds": 0.005865458000698709,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 2,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006627499999922293,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 2,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006210667000232206,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 2,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0057645830002002185,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 2,
+    "strategy": "random",
+    "wall_seconds": 0.005683999999746447,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 3,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.007145708999814815,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 3,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.00679812500038679,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 3,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005842749999828811,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 3,
+    "strategy": "random",
+    "wall_seconds": 0.005881084000066039,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 4,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006560666999575915,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 4,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006075666000469937,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 4,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005748915999902238,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 4,
+    "strategy": "random",
+    "wall_seconds": 0.006005666999953974,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 5,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006796832999498292,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 5,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006253375000596861,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 5,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005887250000341737,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 5,
+    "strategy": "random",
+    "wall_seconds": 0.005729624999730731,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 6,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006710624999868742,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 6,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006233000000065658,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 6,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005841041999701702,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 6,
+    "strategy": "random",
+    "wall_seconds": 0.005703916000129539,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 7,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006829709000157891,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 7,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006227041000784084,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 7,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0058779999999387655,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 7,
+    "strategy": "random",
+    "wall_seconds": 0.006118625000453903,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 8,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006631874999584397,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 8,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006614666000132274,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 8,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005895291999877372,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 8,
+    "strategy": "random",
+    "wall_seconds": 0.0058614160006982274,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 9,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006489917000180867,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 9,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006097542000134126,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 9,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0058701660000224365,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 9,
+    "strategy": "random",
+    "wall_seconds": 0.005670207999173726,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 0,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.008244833999924595,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 0,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006633582999711507,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 0,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006381709000379487,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 0,
+    "strategy": "random",
+    "wall_seconds": 0.0060058330000174465,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 1,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006581208999705268,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 1,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006618708000132756,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 1,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0057898749992091325,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 1,
+    "strategy": "random",
+    "wall_seconds": 0.005942666999544599,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 2,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.007533416000114812,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 2,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006484290999651421,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 2,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005888624999897729,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 2,
+    "strategy": "random",
+    "wall_seconds": 0.0060956670004088664,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 3,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006692457999633916,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 3,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006661499999609077,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 3,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005914125000344939,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 3,
+    "strategy": "random",
+    "wall_seconds": 0.00580549999995128,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 4,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006676832999801263,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 4,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006701708000036888,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 4,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005764415999692574,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 4,
+    "strategy": "random",
+    "wall_seconds": 0.0059449170003063045,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 5,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006697541999528767,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 5,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006829750000179047,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 5,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006339584000670584,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 5,
+    "strategy": "random",
+    "wall_seconds": 0.006277208000028622,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 6,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006629832999351493,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 6,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.007050625000374566,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 6,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005760000000009313,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 6,
+    "strategy": "random",
+    "wall_seconds": 0.005848791000062192,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 7,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006954541000595782,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 7,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0065997909996440285,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 7,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006181666999509616,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 7,
+    "strategy": "random",
+    "wall_seconds": 0.005941209000411618,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 8,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006631916000515048,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 8,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006682291000288387,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 8,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006060624999918218,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 8,
+    "strategy": "random",
+    "wall_seconds": 0.005799749999823689,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 9,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0067809580004905,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 9,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006677583999589842,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 9,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005738249999922118,
+    "workflow": "document"
+  },
+  {
+    "fixture": "stale_revision",
+    "seed": 9,
+    "strategy": "random",
+    "wall_seconds": 0.005993499999931373,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 0,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.00651495799957047,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 0,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.00621658300042327,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 0,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005996208000397019,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 0,
+    "strategy": "random",
+    "wall_seconds": 0.00588204100040457,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 1,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006281042000409798,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 1,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006386000000020431,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 1,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.00580704100048024,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 1,
+    "strategy": "random",
+    "wall_seconds": 0.005845874999977241,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 2,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006341125000290049,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 2,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0063587909999114345,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 2,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.00602654199974495,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 2,
+    "strategy": "random",
+    "wall_seconds": 0.005821040999762772,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 3,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.00633899999957066,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 3,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0063146249995043036,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 3,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005991916000311903,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 3,
+    "strategy": "random",
+    "wall_seconds": 0.005898542000068119,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 4,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006413625000277534,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 4,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006306708999545663,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 4,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006210999999893829,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 4,
+    "strategy": "random",
+    "wall_seconds": 0.005810583000311453,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 5,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006359916000292287,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 5,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006217125000148371,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 5,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005932707999818376,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 5,
+    "strategy": "random",
+    "wall_seconds": 0.00641462500061607,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 6,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006788542000322195,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 6,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006813333000536659,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 6,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.00641129199993884,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 6,
+    "strategy": "random",
+    "wall_seconds": 0.005821749999995518,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 7,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0063889590001053875,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 7,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006130417000349553,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 7,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005904499999815016,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 7,
+    "strategy": "random",
+    "wall_seconds": 0.006346874999508145,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 8,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006397666000339086,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 8,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006295500000305765,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 8,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005987167000057525,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 8,
+    "strategy": "random",
+    "wall_seconds": 0.005739540999456949,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 9,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006390915999872959,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 9,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0062234580000222195,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 9,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005866374999641266,
+    "workflow": "document"
+  },
+  {
+    "fixture": "expired_approval",
+    "seed": 9,
+    "strategy": "random",
+    "wall_seconds": 0.006092292000175803,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 0,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.007037917000161542,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 0,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.00682270899960713,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 0,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006417792000320333,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 0,
+    "strategy": "random",
+    "wall_seconds": 0.005913957999837294,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 1,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006362250000165659,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 1,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006392999999661697,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 1,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006022291999215668,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 1,
+    "strategy": "random",
+    "wall_seconds": 0.006281417000536749,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 2,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.00700941699960822,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 2,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006703209000079369,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 2,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006084499999815307,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 2,
+    "strategy": "random",
+    "wall_seconds": 0.0060075000001234,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 3,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006909499999892432,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 3,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006715708000228915,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 3,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006008749999637075,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 3,
+    "strategy": "random",
+    "wall_seconds": 0.006009082999298698,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 4,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.00629816699984076,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 4,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006236958000044979,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 4,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005998333000206912,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 4,
+    "strategy": "random",
+    "wall_seconds": 0.006255416999920271,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 5,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006722791999891342,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 5,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006229583999811439,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 5,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005782707999969716,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 5,
+    "strategy": "random",
+    "wall_seconds": 0.005919499999436084,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 6,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006503292000161309,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 6,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006108333000156563,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 6,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005959291000181111,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 6,
+    "strategy": "random",
+    "wall_seconds": 0.005979707999358652,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 7,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006309124999461346,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 7,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006397291000212135,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 7,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006039999999302381,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 7,
+    "strategy": "random",
+    "wall_seconds": 0.005937083999924653,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 8,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006717207999827224,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 8,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006715874999827065,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 8,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005859249999957683,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 8,
+    "strategy": "random",
+    "wall_seconds": 0.006125375000010536,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 9,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0062909580001360155,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 9,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006649667000601767,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 9,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006348124999931315,
+    "workflow": "document"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 9,
+    "strategy": "random",
+    "wall_seconds": 0.005720957999983511,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 0,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0067862080004488234,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 0,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006708124999931897,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 0,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006097708000197599,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 0,
+    "strategy": "random",
+    "wall_seconds": 0.005891124999834574,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 1,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006613541000660916,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 1,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006325999999717169,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 1,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0062600410001323326,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 1,
+    "strategy": "random",
+    "wall_seconds": 0.005983415999253339,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 2,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006230041999515379,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 2,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0065300000005663605,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 2,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006361334000757779,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 2,
+    "strategy": "random",
+    "wall_seconds": 0.0063283330000558635,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 3,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006793042000026617,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 3,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0068832080005449825,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 3,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006054165999557881,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 3,
+    "strategy": "random",
+    "wall_seconds": 0.006421209000109229,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 4,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006210833999830356,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 4,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0063881670002956525,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 4,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005875541999557754,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 4,
+    "strategy": "random",
+    "wall_seconds": 0.006032334000337869,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 5,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006308375000116939,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 5,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006439875000069151,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 5,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006016041000293626,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 5,
+    "strategy": "random",
+    "wall_seconds": 0.0058179580000796705,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 6,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006520292000459449,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 6,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006715915999848221,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 6,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006015208999997412,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 6,
+    "strategy": "random",
+    "wall_seconds": 0.005883208000341256,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 7,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.00647216700053832,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 7,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006672041999991052,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 7,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.005982374999803142,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 7,
+    "strategy": "random",
+    "wall_seconds": 0.0060055829999328125,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 8,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0068027919996893615,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 8,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.007924749999801861,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 8,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.006023499999173509,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 8,
+    "strategy": "random",
+    "wall_seconds": 0.0059761659995274385,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 9,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.006258833000174491,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 9,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.006580332999874372,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 9,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.00617958400016505,
+    "workflow": "document"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 9,
+    "strategy": "random",
+    "wall_seconds": 0.005807083000036073,
+    "workflow": "document"
+  },
+  {
+    "fixture": "correct",
+    "seed": 0,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0029723749994445825,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 0,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0027027090000046883,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 0,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002342415999919467,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 0,
+    "strategy": "random",
+    "wall_seconds": 0.002252582999972219,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 1,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002847624999958498,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 1,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0027776249999078573,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 1,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0022861659999762196,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 1,
+    "strategy": "random",
+    "wall_seconds": 0.00234341699979268,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 2,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002988666999954148,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 2,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002705124999920372,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 2,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023469580000892165,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 2,
+    "strategy": "random",
+    "wall_seconds": 0.0023614579995410168,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 3,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0033997079999608104,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 3,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0029997080000612186,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 3,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0024852919996192213,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 3,
+    "strategy": "random",
+    "wall_seconds": 0.0023011250004856265,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 4,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0029385000007096096,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 4,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0027185410008314648,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 4,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.00235854200036556,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 4,
+    "strategy": "random",
+    "wall_seconds": 0.0024074169996310957,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 5,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0029855420007152134,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 5,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0025974999998652493,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 5,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023904580002636067,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 5,
+    "strategy": "random",
+    "wall_seconds": 0.002410375000181375,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 6,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0029245000005175825,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 6,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0025635000001784647,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 6,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0022714160004397854,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 6,
+    "strategy": "random",
+    "wall_seconds": 0.002300416999787558,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 7,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0029485420000128215,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 7,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002682459000425297,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 7,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023112090002541663,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 7,
+    "strategy": "random",
+    "wall_seconds": 0.002284749999489577,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 8,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0036692499998025596,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 8,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002966957999888109,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 8,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023307080000449787,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 8,
+    "strategy": "random",
+    "wall_seconds": 0.002378666000367957,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 9,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0028726659993481007,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 9,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002634958000271581,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 9,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002306249999492138,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "correct",
+    "seed": 9,
+    "strategy": "random",
+    "wall_seconds": 0.0024224170001616585,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 0,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.003162916000292171,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 0,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002852458000234037,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 0,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0024728340004003257,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 0,
+    "strategy": "random",
+    "wall_seconds": 0.0023621250002179295,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 1,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0028595840003617923,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 1,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0029091250007695635,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 1,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023720839999441523,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 1,
+    "strategy": "random",
+    "wall_seconds": 0.0023609999998370768,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 2,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0029354170001170132,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 2,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0027779169995483244,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 2,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0022402500007956405,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 2,
+    "strategy": "random",
+    "wall_seconds": 0.002301916999385867,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 3,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0029634170005010674,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 3,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0038671669999530423,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 3,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002276374999382824,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 3,
+    "strategy": "random",
+    "wall_seconds": 0.0024215410003307625,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 4,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002936374999990221,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 4,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0027621250001175213,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 4,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002319666000403231,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 4,
+    "strategy": "random",
+    "wall_seconds": 0.002307374999872991,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 5,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0029724999994868995,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 5,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002969749999465421,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 5,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.00224616600007721,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 5,
+    "strategy": "random",
+    "wall_seconds": 0.002306500000486267,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 6,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.003176958000040031,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 6,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002830250000442902,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 6,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002342833000511746,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 6,
+    "strategy": "random",
+    "wall_seconds": 0.002373749999605934,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 7,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0029509999994843383,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 7,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0028502920004029875,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 7,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002405374999398191,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 7,
+    "strategy": "random",
+    "wall_seconds": 0.002379999999902793,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 8,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.003170082999531587,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 8,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.003132916999675217,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 8,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0024582500000178698,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 8,
+    "strategy": "random",
+    "wall_seconds": 0.0023767080001562135,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 9,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0029257500000312575,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 9,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002885041999434179,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 9,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002397915999608813,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "scope_binding",
+    "seed": 9,
+    "strategy": "random",
+    "wall_seconds": 0.0023540840002169716,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 0,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0027309170000080485,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 0,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002725457999986247,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 0,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002388165999946068,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 0,
+    "strategy": "random",
+    "wall_seconds": 0.0024395000000367872,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 1,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0028896670000904123,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 1,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.003628874999776599,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 1,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0022282919999270234,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 1,
+    "strategy": "random",
+    "wall_seconds": 0.002187791999858746,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 2,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002682291999917652,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 2,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002717166000365978,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 2,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023335830001087743,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 2,
+    "strategy": "random",
+    "wall_seconds": 0.002341917000194371,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 3,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002909082999394741,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 3,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0027392920001148013,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 3,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023172500004875474,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 3,
+    "strategy": "random",
+    "wall_seconds": 0.002297416000146768,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 4,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0025975839998864103,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 4,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0025944999997591367,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 4,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023097499997675186,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 4,
+    "strategy": "random",
+    "wall_seconds": 0.002421041999696172,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 5,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002786125000056927,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 5,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0026842500001293956,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 5,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0024085420000119484,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 5,
+    "strategy": "random",
+    "wall_seconds": 0.0023327500002778834,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 6,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0027963749998889398,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 6,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002725209000345785,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 6,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002342499999940628,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 6,
+    "strategy": "random",
+    "wall_seconds": 0.0024670840002727346,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 7,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0027733750002880697,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 7,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.003823832999842125,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 7,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002245167000182846,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 7,
+    "strategy": "random",
+    "wall_seconds": 0.0022695000006933697,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 8,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0028818330001740833,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 8,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002786375000141561,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 8,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002344957999412145,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 8,
+    "strategy": "random",
+    "wall_seconds": 0.002210791999459616,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 9,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002563209000072675,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 9,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002659583000422572,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 9,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002277833999869472,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "identity_binding",
+    "seed": 9,
+    "strategy": "random",
+    "wall_seconds": 0.0022863340000185417,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 0,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0027381670006434433,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 0,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0027122500005134498,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 0,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023041659997034003,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 0,
+    "strategy": "random",
+    "wall_seconds": 0.00247937499989348,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 1,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0028879589999633026,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 1,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0027177909996680683,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 1,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0024234170005001943,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 1,
+    "strategy": "random",
+    "wall_seconds": 0.0023781659992891946,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 2,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002710875000047963,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 2,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002717000000302505,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 2,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002299832999597129,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 2,
+    "strategy": "random",
+    "wall_seconds": 0.0023699590001342585,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 3,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002998291000039899,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 3,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002908790999754274,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 3,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002329625000129454,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 3,
+    "strategy": "random",
+    "wall_seconds": 0.0023681660004513105,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 4,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0028331250005066977,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 4,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0025734159999046824,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 4,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002289791000293917,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 4,
+    "strategy": "random",
+    "wall_seconds": 0.002334875000087777,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 5,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.00269899999966583,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 5,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002712667000196234,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 5,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002223624999714957,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 5,
+    "strategy": "random",
+    "wall_seconds": 0.0023296660001506098,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 6,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002704874999835738,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 6,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.00265333399966039,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 6,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0024407089995293063,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 6,
+    "strategy": "random",
+    "wall_seconds": 0.0024082499994619866,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 7,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002809042000080808,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 7,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0026058329995066742,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 7,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023027079996609245,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 7,
+    "strategy": "random",
+    "wall_seconds": 0.0023827080003684387,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 8,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.003205708000677987,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 8,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.003214792000107991,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 8,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002409333000287006,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 8,
+    "strategy": "random",
+    "wall_seconds": 0.0024246249995485414,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 9,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0028187910002088756,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 9,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0027376250000088476,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 9,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0025334170004498446,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "ignored_revocation",
+    "seed": 9,
+    "strategy": "random",
+    "wall_seconds": 0.0024169579992303625,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 0,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0038927920004425687,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 0,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0026881249996222323,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 0,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0023020839998935116,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 0,
+    "strategy": "random",
+    "wall_seconds": 0.002357958000175131,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 1,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0027223750003031455,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 1,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0026539580003372976,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 1,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002432332999887876,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 1,
+    "strategy": "random",
+    "wall_seconds": 0.0022207499996511615,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 2,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.00286270800006605,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 2,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002799583000523853,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 2,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0022739169999113074,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 2,
+    "strategy": "random",
+    "wall_seconds": 0.00235266599975148,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 3,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.00287154199941142,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 3,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002890083000238519,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 3,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0024991250002130982,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 3,
+    "strategy": "random",
+    "wall_seconds": 0.0024978750006994233,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 4,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002783041000839148,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 4,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0027775419994213735,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 4,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0024673750003785244,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 4,
+    "strategy": "random",
+    "wall_seconds": 0.0024371250001422595,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 5,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002691249999770662,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 5,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002718957999604754,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 5,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0024523749998479616,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 5,
+    "strategy": "random",
+    "wall_seconds": 0.0024374580007133773,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 6,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.00276866600052017,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 6,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002727500000219152,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 6,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0022443329999077832,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 6,
+    "strategy": "random",
+    "wall_seconds": 0.0023389999996652477,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 7,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.002712167000026966,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 7,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0026603750002323068,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 7,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002322416999959387,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 7,
+    "strategy": "random",
+    "wall_seconds": 0.0023092499995982507,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 8,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0032260409998343675,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 8,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.0031820000003790483,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 8,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.002230208000582934,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 8,
+    "strategy": "random",
+    "wall_seconds": 0.0023178339997684816,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 9,
+    "strategy": "Lstar_BBC_then_random",
+    "wall_seconds": 0.0026986250004483736,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 9,
+    "strategy": "Lstar_W_then_random",
+    "wall_seconds": 0.002644000000145752,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 9,
+    "strategy": "contract_suite_then_random",
+    "wall_seconds": 0.0024835829999574344,
+    "workflow": "purchase"
+  },
+  {
+    "fixture": "role_bypass",
+    "seed": 9,
+    "strategy": "random",
+    "wall_seconds": 0.0025170000008074567,
+    "workflow": "purchase"
+  }
+]

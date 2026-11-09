@@ -1,0 +1,25 @@
+name: Authority-contract evidence reproduction
+on:
+  push:
+    paths: ['extensions/authority_contracts/**', '.github/workflows/authority-contracts.yml']
+  pull_request:
+    paths: ['extensions/authority_contracts/**', '.github/workflows/authority-contracts.yml']
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -r extensions/authority_contracts/requirements.txt
+      - run: python extensions/authority_contracts/reproduce.py --output /tmp/authority-results
+      - uses: actions/upload-artifact@v4
+        with:
+          name: authority-evidence-${{ matrix.python-version }}
+          path: /tmp/authority-results/
