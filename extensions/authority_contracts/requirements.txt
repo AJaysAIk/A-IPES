@@ -1,0 +1,3 @@
+aalpy==2.0.0
+pydot==4.0.1
+pyparsing==3.3.3

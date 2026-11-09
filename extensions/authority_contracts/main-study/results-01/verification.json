@@ -1,0 +1,8 @@
+{
+  "action_records_replayed": 800000,
+  "prefixes_checked": 1200,
+  "runs": 400,
+  "scope": "separate-pass replay using service implementation and public monitor; not an independent judge implementation",
+  "source_hashes_checked": 4,
+  "verification": "passed"
+}

@@ -1,0 +1,10 @@
+{
+  "python": "3.14.3",
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "sqlite": "3.53.4",
+  "packages": {
+    "aalpy": "2.0.0",
+    "pydot": "4.0.1",
+    "pyparsing": "3.3.3"
+  }
+}
