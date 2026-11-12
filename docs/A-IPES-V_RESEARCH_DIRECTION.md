@@ -1,92 +1,121 @@
-# A-IPES-V research direction
+# A-IPES-V doctoral research direction
 
-## Status
+## Status and evidence boundary
 
-A-IPES-V is a proposed doctoral research direction derived from the empirical findings and limitations of the A-IPES MSc dissertation. It is not implemented in this repository, and no claim of formal verification or deployed-agent validation is made.
+A-IPES-V is an implemented research extension of the A-IPES MSc dissertation. The repository currently contains:
 
-## Motivation
+- a specification-aware state-based experiment with held-out synthetic worlds;
+- a bounded temporal adapter for grant, revoke, use, and idle histories;
+- an independent finite-trace safety monitor;
+- response-information, specification-information, random, and counterexample-guided acquisition strategies;
+- frozen protocols, machine-readable results, query-level audits, tests, and dedicated reproducibility workflows.
 
-A-IPES studies how an evaluator should allocate a limited intervention budget to identify an unknown runtime policy. Its current evidence comes from a controlled synthetic benchmark with a finite hypothesis library. The framework estimates which intervention is likely to be informative, but it does not establish that an agent satisfies a formal safety specification, detect a policy that changes during deployment, or provide guarantees for real Model Context Protocol agents.
+The strongest current evidence is v0.5, a deterministic finite-model experiment over eight known temporal models and all 256 length-four traces. This is concrete implementation evidence, but it is not general formal verification, full LTL model checking, proof of deployed-agent safety, or validation on real Model Context Protocol agents.
 
-A-IPES-V would connect active evidence acquisition with specification-aware runtime verification. The central idea is that an intervention should be valuable when it reduces uncertainty about whether an agent satisfies or violates an explicit safety property, rather than merely producing a novel behaviour.
+See the [v0.5 protocol](../extensions/aipes_v/V05_PROTOCOL.md), [measured results](../extensions/aipes_v/V05_RESULTS.md), and [temporal implementation](../extensions/aipes_v/src/aipes_v/temporal.py).
 
-## Research question
+## What v0.5 established
 
-How can a runtime-assurance system actively select informative interventions while maintaining calibrated uncertainty over an agent's latent policy and verifying whether evolving behaviour satisfies explicit safety specifications?
+The v0.5 experiment studies discovery of accepted tool use without a currently valid grant. It evaluates six unsafe models and two safe controls across twenty seeded candidate orderings.
 
-## Proposed system model
+At a one-trace budget:
 
-A candidate system would contain:
+- specification-active acquisition detected 80 of 120 unsafe world-seed cases;
+- response-information acquisition also detected 80 of 120;
+- the counterexample-guided baseline detected 84 of 120;
+- random acquisition detected 44 of 120.
 
-1. **Agent and environment model** — an agent interacts with tools or services in a sandboxed environment.
-2. **Specification layer** — safety requirements are expressed as temporal, operational, or tool-use properties.
-3. **Belief state** — the evaluator maintains uncertainty over candidate agent policies or behavioural models.
-4. **Active acquisition layer** — candidate interventions are scored by their expected value for confirming or falsifying specification-relevant hypotheses.
-5. **Runtime monitor** — observed traces are checked against the active specifications.
-6. **Drift detector** — posterior or trace changes are used to detect when the agent's policy may have shifted.
+By two traces, the three informed strategies detected all 120 unsafe cases. Specification entropy provided no incremental detection advantage over response entropy in this finite setting. All strategies produced zero safe-control alarms at every reported budget. These are repeated measurements of eight deterministic models, not independent real-world agents.
 
-This is an initial research design, not a completed architecture.
+This null incremental result is part of the contribution. It shows that adding an explicit specification term does not automatically improve acquisition when response disagreement already identifies the relevant traces.
 
-## Research objectives
+## Doctoral research question
 
-### Objective 1  Specification-aware acquisition
+How can specification-aware active runtime assurance remain useful when an agent's policy, environment, or behavioural model is uncertain, misspecified, non-deterministic, or strategically adaptive?
 
-Replace generic safe or unsafe labels with explicit safety properties. Develop acquisition functions that prioritise interventions according to expected reduction in uncertainty about those properties.
+The doctoral problem is therefore not to claim that A-IPES-V already solves formal verification. It is to move from a small realizable finite class toward assurance methods whose assumptions, uncertainty, detection limits, and failure modes remain explicit in more realistic agent environments.
 
-### Objective 2  Policy drift
+## Research gap
 
-Extend the fixed-policy assumption to settings where an agent's behaviour can change through context, model updates, prompt manipulation, tool compromise, or adaptive strategy. Compare changepoint and sequential Bayesian approaches for early drift detection.
+The existing v0.5 benchmark makes several strong assumptions:
 
-### Objective 3  Formal and statistical assurance
+1. the true system belongs to the known eight-model hypothesis class;
+2. transitions are deterministic;
+3. the candidate trace space is finite and exhaustively enumerable;
+4. every adaptive strategy has equal access to the complete model class;
+5. the monitor checks one bounded authorization property;
+6. traces have fixed length four;
+7. resets are available and excluded from the action-call budget;
+8. the tested systems are synthetic models rather than deployed agents.
 
-Study the boundary between formal claims and empirical uncertainty. Formal verification may apply to an abstract model or monitor, while statistical evidence characterises uncertainty about whether the deployed agent conforms to that model.
+These assumptions create strong internal validity but limit external validity. The next research stage should deliberately break them one at a time.
 
-### Objective 4  Adversarial evaluation
+## Proposed research objectives
 
-Test whether the acquisition and monitoring strategy remains useful when an agent or compromised tool adapts to the evaluator, conceals unsafe behaviour, or induces distribution shift.
+### Objective 1  Model misspecification
 
-### Objective 5  External validity
+Evaluate behaviour when the true agent is outside the evaluator's hypothesis class. Develop explicit unresolved or unknown outcomes instead of forcing every observation into an incorrect known model.
 
-Move beyond the finite synthetic hypothesis library toward sandboxed tool-using agents and recorded MCP execution traces. Preserve controlled experiments while introducing progressively more realistic environments.
+### Objective 2  Stochastic and partially observable behaviour
+
+Replace deterministic transitions with stochastic responses and hidden context. Maintain calibrated uncertainty over candidate policies and specification satisfaction.
+
+### Objective 3  Policy and objective drift
+
+Introduce controlled changes in agent policy caused by context, model updates, prompt manipulation, tool compromise, or adaptive strategy. Compare sequential Bayesian and changepoint approaches using detection delay, false alarms, and calibration.
+
+### Objective 4  Richer temporal specifications
+
+Progress from one bounded authorization property toward multiple interacting safety properties, longer histories, and carefully selected temporal-logic fragments. Separate runtime monitoring from claims that require full model checking.
+
+### Objective 5  Adversarial evaluation
+
+Test whether an agent or compromised tool can recognise the evaluator, conceal unsafe behaviour, exploit the acquisition strategy, or induce distribution shift.
+
+### Objective 6  Real agent traces
+
+Move from finite synthetic models to reproducible local tool-using agents and sandboxed MCP environments. Preserve frozen protocols, matched budgets, query audits, and conservative claim boundaries.
 
 ## Candidate methods
 
-The following methods are candidates for investigation rather than committed solutions:
+Methods to investigate include:
 
-- temporal logic and runtime-monitor specifications;
-- probabilistic model checking;
-- Bayesian policy inference and calibrated posterior prediction;
+- temporal logic and executable runtime monitors;
+- probabilistic model checking where an adequate abstract model exists;
+- Bayesian policy inference and posterior predictive checking;
 - active learning and Bayesian experimental design;
 - sequential changepoint detection;
-- adversarial and distribution-shift evaluation;
-- counterexample-guided intervention generation.
+- counterexample-guided trace generation;
+- conformal or calibration-aware uncertainty estimates;
+- adversarial and distribution-shift evaluation.
 
-A doctoral project should determine which combination is justified by the research question and evaluation environment.
+These are candidate methods, not claims of completed capability. Each should be retained only if it answers a defined research question better than a simpler baseline.
 
-## Evaluation plan
+## Evaluation strategy
 
-A staged evaluation could use:
+A staged programme should use:
 
-1. controlled synthetic policy worlds for internal validity;
-2. simulated MCP tool environments with hidden agent policies;
+1. misspecified variants of the existing finite benchmark;
+2. stochastic and partially observable simulated tools;
 3. recorded traces from reproducible local agents;
-4. sandboxed live agents under benign, shifted, and adversarial conditions.
+4. sandboxed live MCP agents under benign, shifted, and adversarial conditions.
 
-Candidate baselines include:
+Baselines should include:
 
 - passive characterisation;
-- random intervention selection;
-- fixed-boundary selection;
+- random trace selection;
+- response-information acquisition;
+- specification-information acquisition;
+- counterexample-guided search;
 - monitoring without active acquisition;
-- active learning based on generic predictive uncertainty;
-- a conventional runtime-verification pipeline;
-- an oracle or upper-bound selector where appropriate.
+- conventional active learning;
+- an oracle or upper-bound selector where scientifically appropriate.
 
-Primary outcomes should distinguish policy identification from safety assurance. Possible measures include specification-violation recall, false-positive rate, detection delay, calibration, intervention cost, posterior contraction, and the probability of returning to a specified safe operating region.
+Primary outcomes should distinguish policy identification from safety assurance. Candidate measures include specification-violation recall, false-positive rate, detection delay, calibration, intervention cost, posterior contraction, unresolved-case rate, and robustness under misspecification.
 
 ## Threats to validity
 
-The research must explicitly address:
+The research must continue to address:
 
 - abstraction mismatch between formal models and real agents;
 - non-identifiability of latent objectives from behaviour;
@@ -94,20 +123,23 @@ The research must explicitly address:
 - evaluator-induced behaviour changes;
 - incomplete or biased safety specifications;
 - adaptive agents that recognise the test;
-- the gap between zero observed violations and a safety guarantee.
+- post-selection inference after adaptive acquisition;
+- the difference between zero observed violations and a safety guarantee.
 
-## Relationship to A-IPES
+## Relationship to the MSc dissertation
 
-A-IPES provides the empirical starting point: a reproducible acquisition framework, paired benchmark design, budget-dependent findings, and evidence that adaptive selection is not uniformly beneficial. A-IPES-V would not simply add a formal-methods label. Its contribution would need to show that specification-relevant acquisition changes what is tested, what can be inferred, or how quickly meaningful violations and policy shifts are detected.
+The dissertation established a reproducible framework for budgeted intervention selection and showed a budget-dependent crossover between passive and adaptive policy identification. A-IPES-V changed the acquisition target from policy identification alone toward explicit safety-property evidence.
 
-## Near-term implementation milestones
+Version 0.5 then showed why this extension must be evaluated rather than assumed: specification weighting did not outperform response entropy, while a simple finite-model counterexample-guided baseline was competitive. The doctoral contribution must therefore come from handling harder assumptions and demonstrating when specification-aware acquisition changes what is tested, what can be inferred, or how quickly meaningful violations and policy shifts are detected.
 
-1. Define a small temporal or state-machine specification language for benchmark policies.
-2. Convert selected Benchmark V2 safety labels into explicit properties.
-3. Implement a monitor that returns satisfaction, violation, or unresolved status for partial traces.
-4. Add a specification-information term to the acquisition function.
-5. Compare it against the existing passive and policy-active strategies under matched priors.
-6. Introduce controlled policy shifts and measure detection delay.
-7. Freeze the protocol before expanding to a sandboxed MCP-agent environment.
+## Next implementation milestones
 
-These milestones are a proposed research programme and are not evidence of completed work.
+1. Add an out-of-class temporal model and an explicit unresolved posterior outcome.
+2. Introduce stochastic responses with calibrated likelihood-based refinement.
+3. Randomise counterexample-guided model ordering and freeze a new protocol.
+4. Extend trace length under a fixed action-call and compute budget.
+5. Add controlled mid-run policy shifts and report censored detection delay.
+6. Compare monitoring-only, information-driven, and counterexample-guided methods under matched access.
+7. Transfer the frozen design to a sandboxed local MCP-agent environment.
+
+These milestones extend completed v0.5 evidence; they are not yet completed results.
