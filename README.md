@@ -82,9 +82,11 @@ The `ipes-guard` package name and earlier IPES terminology are retained for comp
 
 All **17 tests pass** in the publication environment. A seed-0 reproduction with all four budgets matches the archived metrics for all 20 strategy/budget combinations. See [validation details](docs/VALIDATION.md) and [tested dependencies](requirements-tested.txt). The complete 30-world experiments were not rerun for this release.
 
-## Proposed doctoral direction
+## A-IPES-V evidence and doctoral direction
 
-[A-IPES-V](docs/A-IPES-V_RESEARCH_DIRECTION.md) describes a proposed extension connecting active evidence acquisition with explicit safety specifications, runtime monitoring, and policy-drift detection. It is a research plan, not an implemented formal-verification system. The document separates completed evidence from proposed work and defines staged evaluation milestones.
+[A-IPES-V](extensions/aipes_v/README.md) is an implemented specification-aware extension with frozen protocols, state-based and bounded temporal experiments, counterexample-guided comparison, tests, query audits, and reproducibility workflows. Its v0.5 temporal experiment found no incremental detection benefit from specification entropy over response entropy in the finite tested class.
+
+The [doctoral research direction](docs/A-IPES-V_RESEARCH_DIRECTION.md) separates this completed evidence from the next questions: model misspecification, stochastic behaviour, policy drift, richer temporal properties, adversarial evaluation, and sandboxed MCP-agent transfer. Neither document claims general formal verification or deployed-agent safety.
 
 ## Research status and citation
 
