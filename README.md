@@ -4,7 +4,7 @@
 
 MSc Artificial Intelligence dissertation research by **Ajay Sai Kummara**, Queen’s University Belfast, 2026.
 
-[Read the dissertation](paper/A-IPES_Dissertation.pdf) · [Research notes](docs/RESEARCH_NOTES.md) · [Benchmark V2](docs/BENCHMARK_V2.md) · [Code map](docs/CODE_TRACEABILITY.md)
+[Read the dissertation](paper/A-IPES_Dissertation.pdf) · [Research notes](docs/RESEARCH_NOTES.md) · [Benchmark V2](docs/BENCHMARK_V2.md) · [Code map](docs/CODE_TRACEABILITY.md) · [A-IPES-V research direction](docs/A-IPES-V_RESEARCH_DIRECTION.md)
 
 ## Research question
 
@@ -81,6 +81,10 @@ The `ipes-guard` package name and earlier IPES terminology are retained for comp
 ## Validation
 
 All **17 tests pass** in the publication environment. A seed-0 reproduction with all four budgets matches the archived metrics for all 20 strategy/budget combinations. See [validation details](docs/VALIDATION.md) and [tested dependencies](requirements-tested.txt). The complete 30-world experiments were not rerun for this release.
+
+## Proposed doctoral direction
+
+[A-IPES-V](docs/A-IPES-V_RESEARCH_DIRECTION.md) describes a proposed extension connecting active evidence acquisition with explicit safety specifications, runtime monitoring, and policy-drift detection. It is a research plan, not an implemented formal-verification system. The document separates completed evidence from proposed work and defines staged evaluation milestones.
 
 ## Research status and citation
 
